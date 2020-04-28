@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82460" started-at="2020-04-28T07:44:26Z" finished-at="2020-04-28T07:45:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82460" started-at="2020-04-28T07:44:26Z" finished-at="2020-04-28T07:45:48Z">
+      <class name="edu.testcase.WeatherPageTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:edu.testcase.WeatherPageTest@1593948d]" name="startUp" is-config="true" duration-ms="52186" started-at="2020-04-28T07:44:26Z" finished-at="2020-04-28T07:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="enterWeatherPage()[pri:0, instance:edu.testcase.WeatherPageTest@1593948d]" name="enterWeatherPage" is-config="true" duration-ms="24038" started-at="2020-04-28T07:45:18Z" finished-at="2020-04-28T07:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWeatherPage -->
+        <test-method status="PASS" signature="testSearchCity1()[pri:0, instance:edu.testcase.WeatherPageTest@1593948d]" name="testSearchCity1" duration-ms="3469" started-at="2020-04-28T07:45:42Z" description="测试中国城市" finished-at="2020-04-28T07:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchCity1 -->
+        <test-method status="PASS" signature="testSearchCity2()[pri:0, instance:edu.testcase.WeatherPageTest@1593948d]" name="testSearchCity2" duration-ms="2450" started-at="2020-04-28T07:45:46Z" description="测试外国城市" finished-at="2020-04-28T07:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchCity2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:edu.testcase.WeatherPageTest@1593948d]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-04-28T07:45:48Z" finished-at="2020-04-28T07:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- edu.testcase.WeatherPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
