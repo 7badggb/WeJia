@@ -73,6 +73,11 @@ public class WeatherPageTest extends BaseTest {
 	@Test(description="测试能否查看一天的详细天气情况")
 	public void testClickWeekItem() {
 		assertEquals(wp.clickWeekItem(), true);
+	}
+	@Test(description="测试能否返回主界面")
+	public void testClickReturnLastPage() {
+		wp.returnMainPage();
+		
 	}	
 	@AfterClass
 	public void logout() {

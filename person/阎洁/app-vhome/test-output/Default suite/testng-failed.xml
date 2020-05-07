@@ -3,14 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="edu.testcase.WeatherPageTest">
+      <class name="edu.testcase.DouyinPageTest">
         <methods>
+          <include name="test1NewsCount"/>
+          <include name="test5StopBtn"/>
+          <include name="test4LeftBtn"/>
+          <include name="test6RightBtn"/>
           <include name="startUp"/>
-          <include name="enterWeatherPage"/>
-          <include name="testGetWeatherCount"/>
+          <include name="enterDouyinPage"/>
           <include name="tearDown"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- edu.testcase.WeatherPageTest -->
+      </class> <!-- edu.testcase.DouyinPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

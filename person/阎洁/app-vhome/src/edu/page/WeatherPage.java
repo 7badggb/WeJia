@@ -29,7 +29,7 @@ public class WeatherPage {
 		return driver.findElementById("h.jpc.vhome:id/city");
 	}
 	private AndroidElement weather_lv() {
-		return driver.findElementById("h.jpc.vhome:id/lv_weather");//判断他 的个数是不是7，下拉捕捉更新完成的框，上拉捕捉只能显示7天的toast框，不知道是不是这个lv
+		return driver.findElementById("h.jpc.vhome:id/lv_weather");//判断他 的个数是不是7，下拉捕捉更新完成的框，上拉捕捉只能显示7天的toast框
 	}
 	
 	
