@@ -26,4 +26,18 @@ public class PwdLoginTest extends BaseTest{
 		String actResult=loginPage.loginFail("15176906306","123458");
 		Assert.assertEquals(actResult,"用户名或密码错误");
 	}
+	
+	@Test(description="未输入手机号")
+	public void loginFail3() {
+		PwdLoginPage loginPage = new PwdLoginPage(driver);
+		String actResult=loginPage.loginFail("","123456");
+		Assert.assertEquals(actResult,"用户名或密码错误");
+	}
+	
+	@Test(description="未输入密码")
+	public void loginFail4() {
+		PwdLoginPage loginPage = new PwdLoginPage(driver);
+		String actResult=loginPage.loginFail("15176906306","");
+		Assert.assertEquals(actResult,"用户名或密码错误");
+	}
 }

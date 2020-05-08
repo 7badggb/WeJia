@@ -35,4 +35,20 @@ public class FindBackPwdPage {
 	public AndroidElement next_btu() {
 		return this.driver.findElementByXPath("//*[@text='ÏÂÒ»²½']");
 	}
+	
+	public String fbpSuccess(String phone,String code) {
+		action.type(etPhone(),"15176906306");
+		action.click(etPwd());
+		action.type(use_code(),code);
+		action.click(next_btu());
+		return action.getToast();
+	}
+	
+	public String fbpFail(String phone,String code) {
+		action.type(etPhone(),"15176906306");
+		action.click(etPwd());
+		action.type(use_code(),code);
+		action.click(next_btu());
+		return action.getToast();
+	}
 }

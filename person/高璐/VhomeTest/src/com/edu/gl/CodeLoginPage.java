@@ -44,7 +44,7 @@ public class CodeLoginPage {
 		return this.driver.findElementById("h.jpc.vhome:id/register");
 	}
 	
-	public String loginSuccess(String phone) throws InterruptedException {
+	public String loginSuccess(String phone,String code) throws InterruptedException {
 		action.type(input_phone_et(),"15176906306");
 		action.click(request_code_btn());
 		Thread.sleep(3000);
@@ -53,7 +53,7 @@ public class CodeLoginPage {
 		return action.getToast();
 	}
 	
-	public String loginFail(String phone) throws InterruptedException {
+	public String loginFail(String phone,String code) throws InterruptedException {
 		action.type(input_phone_et(),"15176906306");
 		action.click(request_code_btn());
 		Thread.sleep(3000);

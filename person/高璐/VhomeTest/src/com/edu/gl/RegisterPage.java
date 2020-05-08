@@ -56,22 +56,22 @@ public class RegisterPage {
 		return driver.findElementById("h.jpc.vhome:id/registerOK");
 	}
 	
-	public String loginSuccess(String name,String phone,String code,String password) {
-		action.type(userName(),"zyl");
-		action.type(input_phone_et(),"");
+	public String registerSuccess(String name,String phone,String code,String password) {
+		action.type(userName(),name);
+		action.type(input_phone_et(),phone);
 		action.click(request_code_btn());
-		action.type(input_code_et(),"");
-		action.type(etPwd(),"");
+		action.type(input_code_et(),code);
+		action.type(etPwd(),password);
 		action.click(rb1());
 		return action.getToast();
 	}
-	public String loginFail(String name,String phone,String code,String password) {
-		action.type(userName(),"");
-		action.type(input_phone_et(),"");
+	public String registerFail(String name,String phone,String code,String password) {
+		action.type(userName(),name);
+		action.type(input_phone_et(),phone);
 		action.click(request_code_btn());
-		action.type(input_code_et(),"");
-		action.type(etPwd(),"");
-		action.click(rb1());	
+		action.type(input_code_et(),code);
+		action.type(etPwd(),password);
+		action.click(rb2());	
 		return action.getToast();
 	}
 }
