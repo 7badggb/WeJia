@@ -27,7 +27,6 @@ public class EditDepartmentTest extends BaseTest{
 		return driver.findElementByXPath("//*[@title id='parent_chosen']");
 	}
 	private AndroidElement higher_department2(){//上级部门
-		//return driver.findElementByXPath("//*[@title data-option-array-index='2']");
 		return driver.findElementByXPath("//*[@text='管理']");
 	}
 	private AndroidElement manager(){//部门经理
