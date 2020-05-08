@@ -7,10 +7,10 @@ import edu.base.BaseTest;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
-public class PermissionAddUser extends BaseTest{
+public class PermissionAddUserTest extends BaseTest{
 	private AndroidDriver<AndroidElement> driver;
 	BaseAction action;
-	public PermissionAddUser(AndroidDriver<AndroidElement> driver) {
+	public PermissionAddUserTest(AndroidDriver<AndroidElement> driver) {
 		this.driver=driver;
 		this.action = new BaseAction(driver);
 	}

@@ -26,18 +26,41 @@ public class UserEditTest extends BaseTest{
 	private AndroidElement save(){//点击保存
 		return driver.findElementById("submit");
 	}
-	@Test(description="编辑用户信息")
+	private AndroidElement user(){//点击导航栏中用户按钮
+		return driver.findElementByXPath("//*[@href='/xxb/index.php?m=user&f=admin']");
+	}
+	private AndroidElement edit(){//点击用户名为admin的记录右侧操作栏中的编辑按钮
+		return driver.findElementByXPath("//*[@href='/xxb/index.php?m=user&f=edit&account=admin&from=admin']");
+	}
+	private AndroidElement tel(){//手机
+		return driver.findElementById("mobile");
+	}
+	@Test(description="编辑用户信息-正确格式邮箱")
 	public void test1(){
 		action.click(admin());
 		action.click(info_edit());
 		action.type(email(),"111@163.com");
 		action.click(save());
 	}
-	@Test(description="编辑用户信息")
+	@Test(description="编辑用户信息-错误格式邮箱")
 	public void test2(){
 		action.click(admin());
 		action.click(info_edit());
 		action.type(email(),"111");
+		action.click(save());
+	}
+	@Test(description="编辑用户信息-正确格式手机号")
+	public void test3(){
+		action.click(user());
+		action.click(edit());
+		action.type(tel(),"11111111111");
+		action.click(save());
+	}
+	@Test(description="编辑用户信息-错误格式手机号")
+	public void test4(){
+		action.click(user());
+		action.click(edit());
+		action.type(tel(),"11111");
 		action.click(save());
 	}
 
