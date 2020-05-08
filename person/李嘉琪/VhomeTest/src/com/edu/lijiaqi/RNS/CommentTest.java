@@ -17,10 +17,17 @@ public class CommentTest extends BaseTest{
 		return dataProvider.getTestDataByExcel("D:\\cishi\\data1.xlsx", "Sheet1");
 	}
 	
-	@Test(description="评论",dataProvider="data1")
+	@Test(description="评论",dataProvider="data1",priority=1)
 	public void comtTest(String a1) {
 		CommentPage commentPage = new CommentPage(driver);
 		commentPage.comt(a1);
-		assertEquals(commentPage.getComt(), "这1a？");
+		assertEquals(commentPage.getComt(), a1);
 	}
+	@Test(description="回复",priority=2)
+	public void replyTest() {
+		CommentPage commentPage = new CommentPage(driver);
+		commentPage.reply("嘿嘿");
+		assertEquals(commentPage.getReply(), "嘿嘿");
+	}
+	
 }

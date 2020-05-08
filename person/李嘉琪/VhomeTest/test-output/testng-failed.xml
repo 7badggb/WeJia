@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.edu.lijiaqi.RNS.CommentTest">
+      <class name="com.edu.lijiaqi.RNS.SlideTest">
         <methods>
-          <include name="comtTest" invocation-numbers="0"/>
+          <include name="refreshTest"/>
           <include name="Connet"/>
         </methods>
-      </class> <!-- com.edu.lijiaqi.RNS.CommentTest -->
+      </class> <!-- com.edu.lijiaqi.RNS.SlideTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
