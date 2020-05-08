@@ -1,0 +1,916 @@
+  bash arg: -p
+  bash arg: h.jpc.vhome
+  bash arg: -v
+  bash arg: -v
+  bash arg: -v
+  bash arg: 10000
+:Monkey: seed=1587786065052 count=10000
+:AllowPackage: h.jpc.vhome
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.camera.CameraLauncher (from package com.android.camera2)
+//   - NOT USING main activity com.google.android.apps.chrome.Main (from package com.android.chrome)
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.dialer.main.impl.MainActivity (from package com.android.dialer)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.google.android.apps.docs.app.NewMainProxyActivity (from package com.google.android.apps.docs)
+//   - NOT USING main activity com.google.android.maps.MapsActivity (from package com.google.android.apps.maps)
+//   - NOT USING main activity com.google.android.apps.messaging.ui.ConversationListActivity (from package com.google.android.apps.messaging)
+//   - NOT USING main activity com.google.android.apps.photos.home.HomeActivity (from package com.google.android.apps.photos)
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.google.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.google.android.deskclock)
+//   - NOT USING main activity com.google.android.gm.ConversationListActivityGmail (from package com.google.android.gm)
+//   - NOT USING main activity com.android.music.activitymanagement.TopLevelActivity (from package com.google.android.music)
+//   - NOT USING main activity com.google.android.youtube.videos.EntryPoint (from package com.google.android.videos)
+//   - NOT USING main activity com.google.android.youtube.app.honeycomb.Shell$HomeActivity (from package com.google.android.youtube)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   - NOT USING main activity com.google.android.apps.wallpaper.picker.CategoryPickerActivity (from package com.google.android.apps.wallpaper)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.VoiceSearchActivity (from package com.google.android.googlequicksearchbox)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.SearchActivity (from package com.google.android.googlequicksearchbox)
+//   + Using main activity h.jpc.vhome.chat.activity.WelcomeActivity (from package h.jpc.vhome)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.google.android.apps.nexuslauncher.NexusLauncherActivity (from package com.google.android.apps.nexuslauncher)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.SearchActivity (from package com.google.android.googlequicksearchbox)
+// Seeded: 1587786065052
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1383.0,2015.0)
+:Sending Touch (ACTION_UP): 0:(1379.0983,2020.0072)
+Sleeping for 0 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1127.0,503.0)
+:Sending Touch (ACTION_UP): 0:(1140.2756,521.8034)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(248.0,453.0)
+:Sending Touch (ACTION_UP): 0:(262.7262,461.08994)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1174.0,763.0)
+:Sending Touch (ACTION_UP): 0:(1176.0485,769.11115)
+Sleeping for 0 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1208.0,192.0)
+:Sending Touch (ACTION_MOVE): 0:(1206.4008,193.57594)
+:Sending Touch (ACTION_MOVE): 0:(1189.9313,196.237)
+:Sending Touch (ACTION_MOVE): 0:(1171.2864,201.18887)
+:Sending Touch (ACTION_MOVE): 0:(1166.7587,201.62743)
+:Sending Touch (ACTION_MOVE): 0:(1146.343,203.01196)
+:Sending Touch (ACTION_MOVE): 0:(1145.1481,209.7326)
+:Sending Touch (ACTION_UP): 0:(1130.6406,212.21962)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 286    // KEYCODE_THUMBS_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 286    // KEYCODE_THUMBS_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(241.0,598.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(242.26611,600.8784) 1:(340.0,1782.0)
+:Sending Touch (ACTION_MOVE): 0:(244.79672,601.98755) 1:(342.2185,1791.4113)
+:Sending Touch (ACTION_MOVE): 0:(245.48892,603.5115) 1:(342.6822,1792.2902)
+:Sending Touch (ACTION_MOVE): 0:(247.65045,607.2036) 1:(350.0891,1804.9706)
+:Sending Touch (ACTION_MOVE): 0:(248.31848,612.6917) 1:(354.59848,1812.0712)
+:Sending Touch (ACTION_MOVE): 0:(250.18668,618.42395) 1:(362.406,1815.8188)
+:Sending Touch (ACTION_MOVE): 0:(250.60237,618.4811) 1:(363.7881,1822.1967)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(252.87323,620.19354) 1:(367.6818,1830.9355)
+:Sending Touch (ACTION_UP): 0:(254.41461,623.59674)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 164    // KEYCODE_VOLUME_MUTE
+    // Injection Failed
+:Sending Key (ACTION_UP): 164    // KEYCODE_VOLUME_MUTE
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 37    // KEYCODE_I
+    // Injection Failed
+:Sending Key (ACTION_UP): 37    // KEYCODE_I
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+    // Injection Failed
+    //[calendar_time:2020-04-22 02:25:45.404  system_uptime:11086024]
+    // Sending event #100
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(293.0,974.0)
+:Sending Touch (ACTION_UP): 0:(291.30878,974.0067)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1209.0,998.0)
+:Sending Touch (ACTION_UP): 0:(1197.9218,1005.6795)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 7    // KEYCODE_0
+    // Injection Failed
+:Sending Key (ACTION_UP): 7    // KEYCODE_0
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1209.0,290.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(1200.7777,282.19656) 1:(958.0,2168.0)
+:Sending Touch (ACTION_MOVE): 0:(1181.9247,272.9803) 1:(949.6526,2183.9436)
+:Sending Touch (ACTION_MOVE): 0:(1179.5021,266.37262) 1:(948.5593,2185.1292)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(1176.2252,266.04984) 1:(939.1451,2190.5776)
+:Sending Touch (ACTION_UP): 0:(1167.0159,263.8083)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(362.0,2012.0)
+:Sending Touch (ACTION_MOVE): 0:(358.133,2030.0667)
+:Sending Touch (ACTION_MOVE): 0:(355.88934,2038.0852)
+:Sending Touch (ACTION_MOVE): 0:(352.57867,2044.5005)
+:Sending Touch (ACTION_MOVE): 0:(351.02194,2049.7668)
+:Sending Touch (ACTION_MOVE): 0:(350.18173,2055.2861)
+:Sending Touch (ACTION_MOVE): 0:(346.8263,2069.4277)
+:Sending Touch (ACTION_MOVE): 0:(346.08243,2070.2668)
+:Sending Touch (ACTION_UP): 0:(343.16754,2086.8767)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+    // Injection Failed
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(424.0,2365.0)
+:Sending Touch (ACTION_UP): 0:(437.28885,2359.1614)
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1153.0,245.0)
+:Sending Touch (ACTION_MOVE): 0:(1147.7577,243.08449)
+:Sending Touch (ACTION_MOVE): 0:(1133.3638,241.49748)
+:Sending Touch (ACTION_MOVE): 0:(1123.2424,241.39955)
+:Sending Touch (ACTION_MOVE): 0:(1110.3915,232.89185)
+:Sending Touch (ACTION_MOVE): 0:(1107.7898,231.6113)
+:Sending Touch (ACTION_MOVE): 0:(1103.6251,224.99568)
+:Sending Touch (ACTION_UP): 0:(1090.808,220.65611)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+    //[calendar_time:2020-04-22 02:31:39.628  system_uptime:11440248]
+    // Sending event #200
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(283.0,1112.0)
+:Sending Touch (ACTION_UP): 0:(284.4944,1115.0314)
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 76    // KEYCODE_SLASH
+    // Injection Failed
+:Sending Key (ACTION_UP): 76    // KEYCODE_SLASH
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 278    // KEYCODE_COPY
+    // Injection Failed
+:Sending Key (ACTION_UP): 278    // KEYCODE_COPY
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1370.0,127.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(1363.4128,127.48292) 1:(342.0,1409.0)
+:Sending Touch (ACTION_MOVE): 0:(1347.8009,128.21115) 1:(344.6645,1410.1259)
+:Sending Touch (ACTION_MOVE): 0:(1332.7551,129.24178) 1:(345.5288,1414.7974)
+:Sending Touch (ACTION_MOVE): 0:(1330.007,130.33458) 1:(347.82855,1428.3296)
+:Sending Touch (ACTION_MOVE): 0:(1322.5525,130.71486) 1:(347.93112,1444.7698)
+:Sending Touch (ACTION_MOVE): 0:(1304.2482,131.61497) 1:(348.22562,1449.9004)
+:Sending Touch (ACTION_MOVE): 0:(1290.88,132.74101) 1:(349.93613,1462.3591)
+:Sending Touch (ACTION_MOVE): 0:(1275.6882,132.78172) 1:(352.56146,1477.6078)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(1257.9867,133.9112) 1:(353.7163,1485.409)
+:Sending Touch (ACTION_UP): 0:(1252.2358,134.05013)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(811.0,346.0)
+:Sending Touch (ACTION_UP): 0:(815.93915,340.26468)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(107.0,2261.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(91.44974,2247.8853) 1:(553.0,900.0)
+:Sending Touch (ACTION_MOVE): 0:(73.44876,2233.9636) 1:(558.8001,902.4138)
+:Sending Touch (ACTION_MOVE): 0:(68.90764,2221.2773) 1:(570.21564,915.56085)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(52.290657,2216.0964) 1:(588.48474,919.04126)
+:Sending Touch (ACTION_UP): 0:(33.998657,2212.215)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 104    // KEYCODE_BUTTON_L2
+    // Injection Failed
+:Sending Key (ACTION_UP): 104    // KEYCODE_BUTTON_L2
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(58.0,1074.0)
+:Sending Touch (ACTION_UP): 0:(55.211456,1085.9855)
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1109.0,967.0)
+:Sending Touch (ACTION_MOVE): 0:(1101.5269,966.581)
+:Sending Touch (ACTION_MOVE): 0:(1090.9562,955.5119)
+:Sending Touch (ACTION_UP): 0:(1074.3446,947.4066)
+Sleeping for 0 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(425.0,2371.0)
+:Sending Touch (ACTION_MOVE): 0:(430.8865,2384.1646)
+:Sending Touch (ACTION_MOVE): 0:(436.20694,2392.0)
+:Sending Touch (ACTION_UP): 0:(436.4028,2392.0)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(651.0,2048.0)
+    //[calendar_time:2020-04-22 02:37:12.923  system_uptime:11773543]
+    // Sending event #300
+:Sending Touch (ACTION_MOVE): 0:(650.6116,2053.8047)
+:Sending Touch (ACTION_UP): 0:(645.4131,2060.0464)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 235    // KEYCODE_TV_TERRESTRIAL_ANALOG
+    // Injection Failed
+:Sending Key (ACTION_UP): 235    // KEYCODE_TV_TERRESTRIAL_ANALOG
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 134    // KEYCODE_F4
+:Sending Key (ACTION_UP): 134    // KEYCODE_F4
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 77    // KEYCODE_AT
+:Sending Key (ACTION_UP): 77    // KEYCODE_AT
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 7    // KEYCODE_0
+:Sending Key (ACTION_UP): 7    // KEYCODE_0
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(415.0,2211.0)
+:Sending Touch (ACTION_UP): 0:(419.93317,2216.3408)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(993.0,415.0)
+:Sending Touch (ACTION_UP): 0:(987.3312,424.32147)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1411.0,746.0)
+:Sending Touch (ACTION_MOVE): 0:(1420.4406,737.6679)
+:Sending Touch (ACTION_UP): 0:(1428.0941,736.26917)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=content://com.android.calendar/time/1587523037623 cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(638.0,8.0)
+:Sending Touch (ACTION_UP): 0:(642.19977,15.375078)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(237.0,37.0)
+:Sending Touch (ACTION_MOVE): 0:(244.16612,30.173002)
+:Sending Touch (ACTION_MOVE): 0:(249.0849,24.796314)
+:Sending Touch (ACTION_MOVE): 0:(251.53123,9.26955)
+:Sending Touch (ACTION_MOVE): 0:(252.83226,3.7245054)
+:Sending Touch (ACTION_MOVE): 0:(259.30057,0.0)
+:Sending Touch (ACTION_MOVE): 0:(260.65918,0.0)
+:Sending Touch (ACTION_UP): 0:(262.74313,0.0)
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(92.0,758.0)
+:Sending Touch (ACTION_UP): 0:(95.30408,754.18866)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(737.0,435.0)
+:Sending Touch (ACTION_UP): 0:(738.36255,425.44214)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 128    // KEYCODE_MEDIA_CLOSE
+:Sending Key (ACTION_UP): 128    // KEYCODE_MEDIA_CLOSE
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1020.0,1350.0)
+:Sending Touch (ACTION_UP): 0:(1012.07587,1337.8727)
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(9.0,2078.0)
+:Sending Touch (ACTION_MOVE): 0:(9.227992,2099.0105)
+:Sending Touch (ACTION_MOVE): 0:(10.95094,2101.5935)
+:Sending Touch (ACTION_MOVE): 0:(13.283522,2120.4639)
+:Sending Touch (ACTION_MOVE): 0:(15.869075,2131.7227)
+:Sending Touch (ACTION_MOVE): 0:(19.81706,2155.774)
+:Sending Touch (ACTION_MOVE): 0:(22.862036,2179.3745)
+:Sending Touch (ACTION_UP): 0:(25.391182,2195.7002)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Key (ACTION_DOWN): 50    // KEYCODE_V
+:Sending Key (ACTION_UP): 50    // KEYCODE_V
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(213.0,206.0)
+:Sending Touch (ACTION_UP): 0:(208.5941,207.92493)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    //[calendar_time:2020-04-22 02:37:19.205  system_uptime:11779825]
+    // Sending event #400
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(840.0,119.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(851.0668,123.06236) 1:(324.0,809.0)
+:Sending Touch (ACTION_MOVE): 0:(862.9732,124.731064) 1:(309.12842,786.0661)
+:Sending Touch (ACTION_MOVE): 0:(864.2114,126.31083) 1:(296.12674,777.5514)
+:Sending Touch (ACTION_MOVE): 0:(868.9656,129.63187) 1:(287.5499,765.7892)
+:Sending Touch (ACTION_MOVE): 0:(871.23883,130.07584) 1:(286.2914,751.9972)
+:Sending Touch (ACTION_MOVE): 0:(876.2542,132.75087) 1:(275.118,748.22437)
+:Sending Touch (ACTION_MOVE): 0:(880.87964,134.26988) 1:(264.687,738.6511)
+:Sending Touch (ACTION_MOVE): 0:(883.14825,134.57993) 1:(262.79907,734.046)
+:Sending Touch (ACTION_MOVE): 0:(894.54333,134.77702) 1:(257.5411,717.6119)
+:Sending Touch (ACTION_MOVE): 0:(906.633,135.81097) 1:(241.58563,709.5342)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(908.317,136.59532) 1:(229.40132,696.17114)
+:Sending Touch (ACTION_UP): 0:(919.5762,139.52567)
+Sleeping for 0 milliseconds
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 42    // KEYCODE_N
+:Sending Key (ACTION_UP): 42    // KEYCODE_N
+Sleeping for 0 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(586.0,649.0)
+:Sending Touch (ACTION_MOVE): 0:(594.5902,640.56305)
+:Sending Touch (ACTION_MOVE): 0:(608.43317,632.5158)
+:Sending Touch (ACTION_MOVE): 0:(617.0761,616.9964)
+:Sending Touch (ACTION_MOVE): 0:(629.1936,601.7694)
+:Sending Touch (ACTION_MOVE): 0:(642.20996,599.0811)
+:Sending Touch (ACTION_MOVE): 0:(654.17926,596.67395)
+:Sending Touch (ACTION_MOVE): 0:(671.12085,587.4193)
+:Sending Touch (ACTION_MOVE): 0:(671.935,582.28314)
+:Sending Touch (ACTION_MOVE): 0:(682.2034,579.4709)
+:Sending Touch (ACTION_UP): 0:(686.5436,569.98914)
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 0 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 0 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 281    // KEYCODE_SYSTEM_NAVIGATION_DOWN
+:Sending Key (ACTION_UP): 281    // KEYCODE_SYSTEM_NAVIGATION_DOWN
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(897.0,1991.0)
+:Sending Touch (ACTION_UP): 0:(905.84955,1982.5428)
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Key (ACTION_DOWN): 248    // KEYCODE_TV_INPUT_COMPOSITE_2
+    // Injection Failed
+:Sending Key (ACTION_UP): 248    // KEYCODE_TV_INPUT_COMPOSITE_2
+    // Injection Failed
+Sleeping for 0 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)

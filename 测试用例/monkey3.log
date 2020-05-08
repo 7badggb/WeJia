@@ -1,0 +1,3019 @@
+  bash arg: -p
+  bash arg: h.jpc.vhome
+  bash arg: --pct-touch
+  bash arg: 40
+  bash arg: --pct-motion
+  bash arg: 30
+  bash arg: --throttle
+  bash arg: 300
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-security-exceptions
+  bash arg: --ignore-native-crashes
+  bash arg: --monitor-native-crashes
+  bash arg: -v
+  bash arg: -v
+  bash arg: -v
+  bash arg: 10000
+:Monkey: seed=1587585867462 count=10000
+:AllowPackage: h.jpc.vhome
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.camera.CameraLauncher (from package com.android.camera2)
+//   - NOT USING main activity com.google.android.apps.chrome.Main (from package com.android.chrome)
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.dialer.main.impl.MainActivity (from package com.android.dialer)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.google.android.apps.docs.app.NewMainProxyActivity (from package com.google.android.apps.docs)
+//   - NOT USING main activity com.google.android.maps.MapsActivity (from package com.google.android.apps.maps)
+//   - NOT USING main activity com.google.android.apps.messaging.ui.ConversationListActivity (from package com.google.android.apps.messaging)
+//   - NOT USING main activity com.google.android.apps.photos.home.HomeActivity (from package com.google.android.apps.photos)
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.google.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.google.android.deskclock)
+//   - NOT USING main activity com.google.android.gm.ConversationListActivityGmail (from package com.google.android.gm)
+//   - NOT USING main activity com.android.music.activitymanagement.TopLevelActivity (from package com.google.android.music)
+//   - NOT USING main activity com.google.android.youtube.videos.EntryPoint (from package com.google.android.videos)
+//   - NOT USING main activity com.google.android.youtube.app.honeycomb.Shell$HomeActivity (from package com.google.android.youtube)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   - NOT USING main activity com.google.android.apps.wallpaper.picker.CategoryPickerActivity (from package com.google.android.apps.wallpaper)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.VoiceSearchActivity (from package com.google.android.googlequicksearchbox)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.SearchActivity (from package com.google.android.googlequicksearchbox)
+//   + Using main activity h.jpc.vhome.chat.activity.WelcomeActivity (from package h.jpc.vhome)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.google.android.apps.nexuslauncher.NexusLauncherActivity (from package com.google.android.apps.nexuslauncher)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.SearchActivity (from package com.google.android.googlequicksearchbox)
+// Seeded: 1587585867462
+// Event percentages:
+//   0: 40.0%
+//   1: 30.0%
+//   2: 0.8%
+//   3: 6.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 10.0%
+//   7: 6.0%
+//   8: 0.8%
+//   9: 0.8%
+//   10: 0.4%
+//   11: 5.2000003%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(126.0,934.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(131.69022,926.77893)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(669.0,264.0)
+:Sending Touch (ACTION_UP): 0:(672.5169,256.04938)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(94.0,1575.0)
+:Sending Touch (ACTION_UP): 0:(101.42888,1575.0889)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=h.jpc.vhome/.parents.fragment.news.NewsActivity } in package h.jpc.vhome
+:Sending Touch (ACTION_DOWN): 0:(486.0,192.0)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(484.91708,178.5821)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(483.48666,160.7901)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(481.03494,156.23383)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(471.98987,136.63892)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(471.23947,133.52179)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(436.0,395.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(416.07645,405.23468)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(264.0,1188.0)
+:Sending Touch (ACTION_MOVE): 0:(256.09775,1185.8508)
+:Sending Touch (ACTION_MOVE): 0:(245.97618,1185.3024)
+:Sending Touch (ACTION_MOVE): 0:(235.94353,1179.4949)
+:Sending Touch (ACTION_UP): 0:(225.82932,1176.7845)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(695.0,548.0)
+:Sending Touch (ACTION_UP): 0:(694.91797,549.1559)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1044.0,877.0)
+:Sending Touch (ACTION_UP): 0:(1040.3365,865.2635)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+Sleeping for 300 milliseconds
+    // activityResuming(h.jpc.vhome)
+:Sending Touch (ACTION_DOWN): 0:(1008.0,1339.0)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(1030.9397,1356.6982)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(1042.125,1358.194)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(1051.7871,1365.5807)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(1052.8501,1381.729)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(1068.5447,1386.3862)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(1074.0656,1387.9003)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(696.0,1455.0)
+:Sending Touch (ACTION_UP): 0:(693.9008,1456.0541)
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { cmp=h.jpc.vhome/.parents.fragment.news.NewsActivity } in package h.jpc.vhome
+:Sending Key (ACTION_DOWN): 27    // KEYCODE_CAMERA
+:Sending Key (ACTION_UP): 27    // KEYCODE_CAMERA
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(211.0,340.0)
+:Sending Touch (ACTION_UP): 0:(192.22989,342.7387)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(522.0,693.0)
+:Sending Touch (ACTION_UP): 0:(514.6421,687.90906)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(715.0,902.0)
+:Sending Touch (ACTION_MOVE): 0:(718.48627,898.06335)
+:Sending Touch (ACTION_UP): 0:(725.8497,885.85925)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(216.0,1395.0)
+:Sending Touch (ACTION_UP): 0:(216.14838,1388.7562)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(487.0,1572.0)
+:Sending Touch (ACTION_MOVE): 0:(491.83362,1579.9187)
+:Sending Touch (ACTION_MOVE): 0:(498.48666,1584.9614)
+:Sending Touch (ACTION_MOVE): 0:(509.6621,1594.1201)
+:Sending Touch (ACTION_MOVE): 0:(516.38055,1597.2607)
+:Sending Touch (ACTION_UP): 0:(525.76227,1605.2496)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(906.0,328.0)
+:Sending Touch (ACTION_UP): 0:(906.5983,315.61786)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1013.0,1015.0)
+:Sending Touch (ACTION_MOVE): 0:(994.87695,1009.32635)
+:Sending Touch (ACTION_MOVE): 0:(987.03046,1001.68005)
+:Sending Touch (ACTION_MOVE): 0:(981.55493,992.62305)
+:Sending Touch (ACTION_UP): 0:(968.50256,984.448)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(17.0,303.0)
+:Sending Touch (ACTION_MOVE): 0:(15.184342,303.4696)
+:Sending Touch (ACTION_MOVE): 0:(11.935547,304.2713)
+:Sending Touch (ACTION_MOVE): 0:(4.289825,304.73)
+:Sending Touch (ACTION_MOVE): 0:(0.0,305.14108)
+:Sending Touch (ACTION_MOVE): 0:(0.0,305.9615)
+:Sending Touch (ACTION_UP): 0:(0.0,306.30002)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(285.0,629.0)
+:Sending Touch (ACTION_MOVE): 0:(284.7572,628.17285)
+:Sending Touch (ACTION_MOVE): 0:(284.27777,625.89734)
+:Sending Touch (ACTION_MOVE): 0:(283.82645,624.8488)
+    //[calendar_time:2020-04-21 07:36:23.897  system_uptime:2771740]
+    // Sending event #100
+:Sending Touch (ACTION_MOVE): 0:(283.55804,623.21906)
+:Sending Touch (ACTION_MOVE): 0:(283.1097,621.1389)
+:Sending Touch (ACTION_MOVE): 0:(282.91418,620.4964)
+:Sending Touch (ACTION_MOVE): 0:(282.0489,620.07117)
+:Sending Touch (ACTION_MOVE): 0:(281.50436,619.22516)
+:Sending Touch (ACTION_UP): 0:(280.6869,617.0144)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 177    // KEYCODE_TV_POWER
+:Sending Key (ACTION_UP): 177    // KEYCODE_TV_POWER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1047.0,1070.0)
+:Sending Touch (ACTION_MOVE): 0:(1062.7931,1069.7195)
+:Sending Touch (ACTION_UP): 0:(1069.2644,1069.6837)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(301.0,1229.0)
+:Sending Touch (ACTION_UP): 0:(303.2222,1213.22)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1040.0,1337.0)
+:Sending Touch (ACTION_UP): 0:(1023.50256,1332.7244)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(177.0,848.0)
+:Sending Touch (ACTION_UP): 0:(172.91565,857.2894)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(426.0,1156.0)
+:Sending Touch (ACTION_UP): 0:(420.84915,1155.7927)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(281.0,1102.0)
+:Sending Touch (ACTION_UP): 0:(287.88327,1099.5249)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(284.0,507.0)
+:Sending Touch (ACTION_UP): 0:(290.21286,506.53693)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.main.impl.MainActivity } in package com.android.dialer
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 41    // KEYCODE_M
+:Sending Key (ACTION_UP): 41    // KEYCODE_M
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(433.0,594.0)
+:Sending Touch (ACTION_UP): 0:(431.79968,588.6294)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(628.0,1546.0)
+:Sending Touch (ACTION_MOVE): 0:(627.85,1565.958)
+:Sending Touch (ACTION_MOVE): 0:(626.04083,1566.7769)
+:Sending Touch (ACTION_MOVE): 0:(624.8925,1581.9584)
+:Sending Touch (ACTION_MOVE): 0:(622.7505,1598.1321)
+:Sending Touch (ACTION_MOVE): 0:(622.22815,1606.7057)
+:Sending Touch (ACTION_MOVE): 0:(620.56525,1619.0144)
+:Sending Touch (ACTION_MOVE): 0:(618.1196,1632.3457)
+:Sending Touch (ACTION_UP): 0:(615.81714,1654.5417)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(835.0,799.0)
+:Sending Touch (ACTION_UP): 0:(829.78424,815.18414)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 89    // KEYCODE_MEDIA_REWIND
+:Sending Key (ACTION_UP): 89    // KEYCODE_MEDIA_REWIND
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(30.0,1324.0)
+:Sending Touch (ACTION_MOVE): 0:(28.970325,1328.8647)
+:Sending Touch (ACTION_MOVE): 0:(25.483593,1342.8707)
+:Sending Touch (ACTION_MOVE): 0:(25.166227,1356.1023)
+:Sending Touch (ACTION_MOVE): 0:(23.464691,1364.5153)
+:Sending Touch (ACTION_MOVE): 0:(21.543303,1375.0461)
+:Sending Touch (ACTION_MOVE): 0:(17.16495,1391.2737)
+:Sending Touch (ACTION_MOVE): 0:(16.064022,1393.637)
+:Sending Touch (ACTION_MOVE): 0:(8.242141,1397.0305)
+:Sending Touch (ACTION_UP): 0:(6.0654826,1410.6261)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(498.0,1304.0)
+:Sending Touch (ACTION_UP): 0:(491.21634,1298.497)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(284.0,686.0)
+:Sending Touch (ACTION_UP): 0:(286.8578,680.065)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(340.0,637.0)
+:Sending Touch (ACTION_UP): 0:(340.28928,639.1948)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(568.0,1123.0)
+:Sending Touch (ACTION_MOVE): 0:(569.0719,1123.7286)
+:Sending Touch (ACTION_UP): 0:(576.8233,1125.8849)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(161.0,336.0)
+:Sending Touch (ACTION_UP): 0:(161.80843,346.32166)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(382.0,832.0)
+:Sending Touch (ACTION_UP): 0:(361.0593,834.53357)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(418.0,1339.0)
+:Sending Touch (ACTION_UP): 0:(422.22803,1349.4326)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(961.0,138.0)
+:Sending Touch (ACTION_UP): 0:(959.7386,138.73936)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(294.0,841.0)
+:Sending Touch (ACTION_UP): 0:(300.54834,819.33105)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(781.0,436.0)
+:Sending Touch (ACTION_UP): 0:(793.59094,446.55975)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(765.0,315.0)
+:Sending Touch (ACTION_UP): 0:(767.6669,315.4303)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(487.0,234.0)
+:Sending Touch (ACTION_UP): 0:(484.54407,234.71054)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(369.0,896.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(364.50775,897.80505) 1:(83.0,1607.0)
+:Sending Touch (ACTION_MOVE): 0:(355.36505,899.5296) 1:(81.07421,1611.0862)
+:Sending Touch (ACTION_MOVE): 0:(340.93814,901.4203) 1:(77.80317,1611.2251)
+:Sending Touch (ACTION_MOVE): 0:(340.43088,901.9764) 1:(70.31265,1615.7368)
+:Sending Touch (ACTION_MOVE): 0:(325.55807,902.36017) 1:(62.371033,1620.1062)
+:Sending Touch (ACTION_MOVE): 0:(322.1574,903.43933) 1:(59.620434,1620.6062)
+:Sending Touch (ACTION_MOVE): 0:(311.01483,904.9291) 1:(56.018967,1623.9855)
+:Sending Touch (ACTION_MOVE): 0:(303.23566,905.18964) 1:(46.666782,1629.0984)
+:Sending Touch (ACTION_MOVE): 0:(291.0294,906.5637) 1:(35.185028,1629.9606)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(280.0384,908.3185) 1:(29.937426,1632.245)
+    //[calendar_time:2020-04-21 07:36:35.783  system_uptime:2783625]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(264.59317,909.7461)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(678.0,596.0)
+:Sending Touch (ACTION_MOVE): 0:(681.05676,604.26025)
+:Sending Touch (ACTION_MOVE): 0:(699.9426,616.80786)
+:Sending Touch (ACTION_MOVE): 0:(714.83563,627.9495)
+:Sending Touch (ACTION_MOVE): 0:(734.60895,631.9763)
+:Sending Touch (ACTION_MOVE): 0:(758.50397,650.8453)
+:Sending Touch (ACTION_UP): 0:(768.4984,659.9768)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(86.0,82.0)
+:Sending Touch (ACTION_MOVE): 0:(84.99992,82.90163)
+:Sending Touch (ACTION_MOVE): 0:(83.811676,87.01677)
+:Sending Touch (ACTION_MOVE): 0:(80.64063,92.1778)
+:Sending Touch (ACTION_MOVE): 0:(78.96537,95.242004)
+:Sending Touch (ACTION_MOVE): 0:(76.87233,102.55165)
+:Sending Touch (ACTION_MOVE): 0:(73.613434,111.43506)
+:Sending Touch (ACTION_MOVE): 0:(71.05984,111.88447)
+:Sending Touch (ACTION_UP): 0:(69.40971,115.96759)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(441.0,349.0)
+:Sending Touch (ACTION_UP): 0:(447.28342,349.36993)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(430.0,1388.0)
+:Sending Touch (ACTION_MOVE): 0:(434.57877,1387.7662)
+:Sending Touch (ACTION_MOVE): 0:(440.66925,1387.4089)
+:Sending Touch (ACTION_MOVE): 0:(442.60742,1387.2332)
+:Sending Touch (ACTION_MOVE): 0:(452.67178,1385.9901)
+:Sending Touch (ACTION_UP): 0:(463.23846,1384.9778)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(72.0,289.0)
+:Sending Touch (ACTION_UP): 0:(71.32851,292.04053)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 211    // KEYCODE_ZENKAKU_HANKAKU
+:Sending Key (ACTION_UP): 211    // KEYCODE_ZENKAKU_HANKAKU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(429.0,556.0)
+:Sending Touch (ACTION_MOVE): 0:(420.69025,548.8344)
+:Sending Touch (ACTION_MOVE): 0:(415.35794,536.0196)
+:Sending Touch (ACTION_MOVE): 0:(411.72913,523.3077)
+:Sending Touch (ACTION_MOVE): 0:(402.4529,517.1267)
+:Sending Touch (ACTION_MOVE): 0:(396.98016,515.9568)
+:Sending Touch (ACTION_UP): 0:(393.91483,509.7167)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(865.0,341.0)
+:Sending Touch (ACTION_UP): 0:(871.0924,329.50662)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(922.0,1065.0)
+:Sending Touch (ACTION_UP): 0:(922.31445,1066.4467)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.main.impl.MainActivity } in package com.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(576.0,665.0)
+:Sending Touch (ACTION_UP): 0:(572.4952,672.00543)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 259    // KEYCODE_HELP
+:Sending Key (ACTION_UP): 259    // KEYCODE_HELP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(499.0,968.0)
+:Sending Touch (ACTION_UP): 0:(497.0411,975.70703)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(781.0,184.0)
+:Sending Touch (ACTION_UP): 0:(779.9978,203.17413)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(485.0,859.0)
+:Sending Touch (ACTION_UP): 0:(483.92212,854.0521)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(629.0,8.0)
+:Sending Touch (ACTION_UP): 0:(631.9874,16.130814)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(409.0,1476.0)
+:Sending Touch (ACTION_UP): 0:(410.0299,1488.9888)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(967.0,135.0)
+:Sending Touch (ACTION_UP): 0:(979.2954,140.12299)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(564.0,675.0)
+:Sending Touch (ACTION_UP): 0:(575.4429,676.8869)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(460.0,197.0)
+:Sending Touch (ACTION_UP): 0:(454.18997,202.39261)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(957.0,1610.0)
+:Sending Touch (ACTION_UP): 0:(959.30194,1613.6481)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(373.0,1116.0)
+:Sending Touch (ACTION_UP): 0:(376.67923,1114.7186)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(518.0,353.0)
+:Sending Touch (ACTION_UP): 0:(521.0051,359.30023)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(823.0,1300.0)
+:Sending Touch (ACTION_UP): 0:(823.12775,1282.6875)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(591.0,894.0)
+:Sending Touch (ACTION_UP): 0:(590.5823,885.31946)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(413.0,628.0)
+:Sending Touch (ACTION_UP): 0:(408.18448,627.7648)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 101    // KEYCODE_BUTTON_Z
+    // Injection Failed
+:Sending Key (ACTION_UP): 101    // KEYCODE_BUTTON_Z
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(482.0,834.0)
+:Sending Touch (ACTION_MOVE): 0:(496.44125,836.3412)
+:Sending Touch (ACTION_MOVE): 0:(504.5916,836.6894)
+:Sending Touch (ACTION_MOVE): 0:(525.46606,843.41016)
+:Sending Touch (ACTION_MOVE): 0:(538.4748,856.9829)
+:Sending Touch (ACTION_UP): 0:(552.0698,871.4162)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(457.0,459.0)
+:Sending Touch (ACTION_MOVE): 0:(457.94672,468.92218)
+:Sending Touch (ACTION_MOVE): 0:(462.40234,478.31738)
+:Sending Touch (ACTION_MOVE): 0:(467.3748,489.94174)
+:Sending Touch (ACTION_MOVE): 0:(471.3576,493.03442)
+:Sending Touch (ACTION_MOVE): 0:(474.90497,503.74448)
+:Sending Touch (ACTION_MOVE): 0:(476.80768,512.4103)
+:Sending Touch (ACTION_MOVE): 0:(480.8224,518.0973)
+    //[calendar_time:2020-04-21 07:37:07.565  system_uptime:2815407]
+    // Sending event #300
+:Sending Touch (ACTION_MOVE): 0:(481.65402,521.09973)
+:Sending Touch (ACTION_UP): 0:(482.52747,535.5177)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(538.0,1002.0)
+:Sending Touch (ACTION_MOVE): 0:(538.60876,1020.96936)
+:Sending Touch (ACTION_MOVE): 0:(539.3716,1021.46405)
+:Sending Touch (ACTION_MOVE): 0:(539.7291,1041.2871)
+:Sending Touch (ACTION_MOVE): 0:(540.68646,1055.8688)
+:Sending Touch (ACTION_UP): 0:(541.59485,1061.0521)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1037.0,782.0)
+:Sending Touch (ACTION_MOVE): 0:(1036.1104,781.73175)
+:Sending Touch (ACTION_MOVE): 0:(1034.4235,773.9372)
+:Sending Touch (ACTION_MOVE): 0:(1030.889,768.8697)
+:Sending Touch (ACTION_MOVE): 0:(1028.3538,761.4802)
+:Sending Touch (ACTION_MOVE): 0:(1027.0569,757.93005)
+:Sending Touch (ACTION_UP): 0:(1023.66895,754.1493)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(289.0,781.0)
+:Sending Touch (ACTION_UP): 0:(290.07465,764.6264)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(382.0,33.0)
+:Sending Touch (ACTION_UP): 0:(389.5179,19.013113)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(667.0,34.0)
+:Sending Touch (ACTION_UP): 0:(662.95874,42.542656)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(145.0,1680.0)
+:Sending Touch (ACTION_UP): 0:(149.12589,1687.0488)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(759.0,1368.0)
+:Sending Touch (ACTION_UP): 0:(757.1978,1364.4327)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(366.0,1493.0)
+:Sending Touch (ACTION_UP): 0:(360.78293,1489.1786)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1046.0,1787.0)
+:Sending Touch (ACTION_UP): 0:(1041.1323,1765.3489)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(522.0,483.0)
+:Sending Touch (ACTION_MOVE): 0:(522.90894,483.1944)
+:Sending Touch (ACTION_UP): 0:(524.9071,483.40756)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(57.0,146.0)
+:Sending Touch (ACTION_MOVE): 0:(79.31663,145.41621)
+:Sending Touch (ACTION_MOVE): 0:(95.05389,141.02054)
+:Sending Touch (ACTION_MOVE): 0:(96.05566,134.23183)
+:Sending Touch (ACTION_MOVE): 0:(106.23211,127.6223)
+:Sending Touch (ACTION_UP): 0:(124.55641,127.12834)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(955.0,222.0)
+:Sending Touch (ACTION_MOVE): 0:(956.79614,225.28802)
+:Sending Touch (ACTION_UP): 0:(967.3333,230.01349)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(652.0,1533.0)
+:Sending Touch (ACTION_UP): 0:(647.27594,1527.0001)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(198.0,235.0)
+:Sending Touch (ACTION_UP): 0:(195.50978,242.50584)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(220.0,788.0)
+:Sending Touch (ACTION_MOVE): 0:(216.16986,782.15015)
+:Sending Touch (ACTION_MOVE): 0:(213.4325,772.0156)
+:Sending Touch (ACTION_MOVE): 0:(209.86697,766.8186)
+:Sending Touch (ACTION_MOVE): 0:(206.27023,757.73236)
+:Sending Touch (ACTION_UP): 0:(204.43044,751.29645)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(710.0,1083.0)
+:Sending Touch (ACTION_UP): 0:(699.5551,1088.4729)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(596.0,398.0)
+:Sending Touch (ACTION_MOVE): 0:(606.7198,398.00024)
+:Sending Touch (ACTION_MOVE): 0:(622.98895,398.28125)
+:Sending Touch (ACTION_MOVE): 0:(628.55316,398.69702)
+:Sending Touch (ACTION_MOVE): 0:(639.7093,399.37814)
+:Sending Touch (ACTION_MOVE): 0:(659.6753,399.61206)
+:Sending Touch (ACTION_MOVE): 0:(662.1545,399.9194)
+:Sending Touch (ACTION_UP): 0:(669.5458,400.32538)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(901.0,1599.0)
+:Sending Touch (ACTION_UP): 0:(885.90405,1609.6755)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(394.0,1337.0)
+:Sending Touch (ACTION_MOVE): 0:(392.25836,1340.6874)
+:Sending Touch (ACTION_MOVE): 0:(382.3674,1341.1847)
+:Sending Touch (ACTION_MOVE): 0:(377.64832,1343.0408)
+:Sending Touch (ACTION_MOVE): 0:(377.46362,1346.7094)
+:Sending Touch (ACTION_MOVE): 0:(366.94443,1348.1262)
+:Sending Touch (ACTION_UP): 0:(356.18912,1349.1204)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(532.0,1397.0)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_MOVE): 0:(533.1205,1408.4991)
+    //[calendar_time:2020-04-21 07:39:37.226  system_uptime:2965068]
+    // Sending event #400
+:Sending Touch (ACTION_MOVE): 0:(535.7113,1418.0071)
+:Sending Touch (ACTION_MOVE): 0:(542.5947,1436.5085)
+:Sending Touch (ACTION_MOVE): 0:(548.0094,1458.0271)
+:Sending Touch (ACTION_MOVE): 0:(553.2857,1459.9747)
+:Sending Touch (ACTION_MOVE): 0:(557.3021,1477.8506)
+:Sending Touch (ACTION_MOVE): 0:(562.51434,1481.0803)
+:Sending Touch (ACTION_UP): 0:(563.9378,1481.2244)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(234.0,1250.0)
+:Sending Touch (ACTION_MOVE): 0:(233.9097,1248.0282)
+:Sending Touch (ACTION_MOVE): 0:(230.62544,1247.6542)
+:Sending Touch (ACTION_UP): 0:(226.4229,1246.581)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(919.0,79.0)
+:Sending Touch (ACTION_MOVE): 0:(925.14594,86.27875)
+:Sending Touch (ACTION_MOVE): 0:(941.65985,87.292946)
+:Sending Touch (ACTION_MOVE): 0:(952.5678,87.7644)
+:Sending Touch (ACTION_MOVE): 0:(968.27216,91.78335)
+:Sending Touch (ACTION_MOVE): 0:(983.1822,92.94679)
+:Sending Touch (ACTION_MOVE): 0:(998.4101,98.334564)
+:Sending Touch (ACTION_MOVE): 0:(1003.0796,101.11919)
+:Sending Touch (ACTION_MOVE): 0:(1024.6108,104.24027)
+:Sending Touch (ACTION_UP): 0:(1042.5287,106.21044)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(352.0,203.0)
+:Sending Touch (ACTION_UP): 0:(342.00647,196.50014)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(895.0,837.0)
+:Sending Touch (ACTION_MOVE): 0:(892.5622,826.5154)
+:Sending Touch (ACTION_MOVE): 0:(872.562,816.6834)
+:Sending Touch (ACTION_MOVE): 0:(858.75525,814.93744)
+:Sending Touch (ACTION_MOVE): 0:(852.3009,800.46185)
+:Sending Touch (ACTION_UP): 0:(844.6788,796.33545)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,775.0)
+:Sending Touch (ACTION_UP): 0:(158.59612,768.6233)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(590.0,639.0)
+:Sending Touch (ACTION_MOVE): 0:(587.86993,625.0546)
+:Sending Touch (ACTION_MOVE): 0:(586.25586,624.69525)
+:Sending Touch (ACTION_MOVE): 0:(585.74786,610.58594)
+:Sending Touch (ACTION_MOVE): 0:(585.15234,600.8535)
+:Sending Touch (ACTION_UP): 0:(583.2524,592.9327)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(553.0,1295.0)
+:Sending Touch (ACTION_MOVE): 0:(544.22314,1284.807)
+:Sending Touch (ACTION_MOVE): 0:(531.3118,1276.8206)
+:Sending Touch (ACTION_MOVE): 0:(528.4134,1270.8202)
+:Sending Touch (ACTION_MOVE): 0:(511.90332,1267.0128)
+:Sending Touch (ACTION_MOVE): 0:(500.13855,1256.2681)
+:Sending Touch (ACTION_MOVE): 0:(494.44696,1253.6884)
+:Sending Touch (ACTION_MOVE): 0:(490.90817,1252.1858)
+:Sending Touch (ACTION_MOVE): 0:(481.0935,1250.9592)
+:Sending Touch (ACTION_UP): 0:(478.9808,1242.2205)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(703.0,1372.0)
+:Sending Touch (ACTION_MOVE): 0:(698.3447,1355.0226)
+:Sending Touch (ACTION_UP): 0:(692.5742,1340.4476)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(156.0,780.0)
+:Sending Touch (ACTION_UP): 0:(166.11453,781.10895)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 32    // KEYCODE_D
+    // Injection Failed
+:Sending Key (ACTION_UP): 32    // KEYCODE_D
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(966.0,1035.0)
+:Sending Touch (ACTION_UP): 0:(950.1002,1046.3385)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(726.0,401.0)
+:Sending Touch (ACTION_UP): 0:(727.14856,401.0919)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 53    // KEYCODE_Y
+    // Injection Failed
+:Sending Key (ACTION_UP): 53    // KEYCODE_Y
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(730.0,1239.0)
+:Sending Touch (ACTION_MOVE): 0:(730.1026,1237.8949)
+:Sending Touch (ACTION_UP): 0:(730.2872,1236.9613)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(830.0,1510.0)
+:Sending Touch (ACTION_UP): 0:(837.9657,1497.4691)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 124    // KEYCODE_INSERT
+    // Injection Failed
+:Sending Key (ACTION_UP): 124    // KEYCODE_INSERT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(810.0,1331.0)
+:Sending Touch (ACTION_UP): 0:(804.1445,1346.2866)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(52.0,1029.0)
+:Sending Touch (ACTION_UP): 0:(53.655163,1029.0894)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,1338.0)
+:Sending Touch (ACTION_MOVE): 0:(663.71954,1325.1702)
+:Sending Touch (ACTION_UP): 0:(649.1746,1317.9662)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(317.0,367.0)
+:Sending Touch (ACTION_UP): 0:(307.62274,377.3578)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(859.0,369.0)
+:Sending Touch (ACTION_UP): 0:(864.5398,366.76868)
+    //[calendar_time:2020-04-21 07:42:07.583  system_uptime:3115425]
+    // Sending event #500
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+    //[calendar_time:2020-04-21 07:42:07.888  system_uptime:3115730]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(454.0,1315.0)
+:Sending Touch (ACTION_UP): 0:(446.3302,1313.8894)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(479.0,366.0)
+:Sending Touch (ACTION_MOVE): 0:(501.35953,350.45926)
+:Sending Touch (ACTION_MOVE): 0:(517.57623,344.65378)
+:Sending Touch (ACTION_MOVE): 0:(520.9433,339.7965)
+:Sending Touch (ACTION_UP): 0:(532.1998,335.5997)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(78.0,513.0)
+:Sending Touch (ACTION_MOVE): 0:(79.61398,508.9714)
+:Sending Touch (ACTION_MOVE): 0:(85.62434,501.43338)
+:Sending Touch (ACTION_MOVE): 0:(89.48974,496.41092)
+:Sending Touch (ACTION_MOVE): 0:(92.01805,495.2982)
+:Sending Touch (ACTION_MOVE): 0:(96.18764,492.73746)
+:Sending Touch (ACTION_MOVE): 0:(103.74554,485.39862)
+:Sending Touch (ACTION_MOVE): 0:(110.50042,480.60037)
+:Sending Touch (ACTION_MOVE): 0:(112.87611,475.74374)
+:Sending Touch (ACTION_UP): 0:(119.51454,470.52502)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(160.0,753.0)
+:Sending Touch (ACTION_UP): 0:(156.69435,747.16125)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(730.0,577.0)
+:Sending Touch (ACTION_UP): 0:(726.35944,565.86255)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(927.0,13.0)
+:Sending Touch (ACTION_UP): 0:(911.61945,0.0)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 35    // KEYCODE_G
+:Sending Key (ACTION_UP): 35    // KEYCODE_G
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1011.0,648.0)
+:Sending Touch (ACTION_UP): 0:(1012.2736,651.6327)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(990.0,283.0)
+:Sending Touch (ACTION_UP): 0:(995.61584,286.53595)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(321.0,1191.0)
+:Sending Touch (ACTION_MOVE): 0:(334.9184,1201.2599)
+:Sending Touch (ACTION_MOVE): 0:(345.61942,1210.2914)
+:Sending Touch (ACTION_MOVE): 0:(348.97586,1226.8943)
+:Sending Touch (ACTION_MOVE): 0:(352.9504,1228.351)
+:Sending Touch (ACTION_MOVE): 0:(362.4148,1232.8431)
+:Sending Touch (ACTION_MOVE): 0:(377.29825,1248.7571)
+:Sending Touch (ACTION_MOVE): 0:(385.23703,1249.0596)
+:Sending Touch (ACTION_MOVE): 0:(402.78146,1256.1119)
+:Sending Touch (ACTION_UP): 0:(410.63422,1260.4343)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(488.0,75.0)
+:Sending Touch (ACTION_MOVE): 0:(488.12567,76.199196)
+:Sending Touch (ACTION_MOVE): 0:(488.7684,79.0872)
+:Sending Touch (ACTION_MOVE): 0:(489.5915,81.19968)
+:Sending Touch (ACTION_MOVE): 0:(490.583,84.349785)
+:Sending Touch (ACTION_UP): 0:(492.09692,85.86787)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(540.0,957.0)
+:Sending Touch (ACTION_UP): 0:(540.56586,956.4384)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(38.0,965.0)
+:Sending Touch (ACTION_MOVE): 0:(28.7126,966.6613)
+:Sending Touch (ACTION_MOVE): 0:(28.353941,969.9238)
+:Sending Touch (ACTION_MOVE): 0:(21.708994,979.6125)
+:Sending Touch (ACTION_MOVE): 0:(20.601728,987.59607)
+:Sending Touch (ACTION_MOVE): 0:(16.474594,993.3245)
+:Sending Touch (ACTION_MOVE): 0:(6.03454,998.77856)
+:Sending Touch (ACTION_UP): 0:(0.0,1008.3387)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(894.0,175.0)
+:Sending Touch (ACTION_MOVE): 0:(888.43695,184.86235)
+:Sending Touch (ACTION_MOVE): 0:(888.09875,194.2921)
+:Sending Touch (ACTION_MOVE): 0:(886.9845,213.59552)
+:Sending Touch (ACTION_MOVE): 0:(885.0236,214.74615)
+:Sending Touch (ACTION_MOVE): 0:(883.80536,222.98743)
+:Sending Touch (ACTION_UP): 0:(877.8071,227.2428)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(949.0,152.0)
+:Sending Touch (ACTION_MOVE): 0:(960.33734,157.30577)
+:Sending Touch (ACTION_MOVE): 0:(972.6202,172.46042)
+:Sending Touch (ACTION_MOVE): 0:(977.41125,178.53456)
+:Sending Touch (ACTION_MOVE): 0:(981.66846,193.62947)
+:Sending Touch (ACTION_MOVE): 0:(1000.16296,204.12366)
+:Sending Touch (ACTION_UP): 0:(1012.85516,204.94577)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(248.0,331.0)
+:Sending Touch (ACTION_UP): 0:(224.10104,332.76526)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(644.0,1175.0)
+:Sending Touch (ACTION_UP): 0:(649.2162,1193.038)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(734.0,499.0)
+:Sending Touch (ACTION_UP): 0:(740.84314,505.78156)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 212    // KEYCODE_EISU
+    // Injection Failed
+:Sending Key (ACTION_UP): 212    // KEYCODE_EISU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(622.0,1266.0)
+:Sending Touch (ACTION_UP): 0:(619.9106,1247.4376)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(967.0,1716.0)
+:Sending Touch (ACTION_UP): 0:(958.66644,1708.5127)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(488.0,1768.0)
+:Sending Touch (ACTION_MOVE): 0:(487.63254,1768.5522)
+:Sending Touch (ACTION_MOVE): 0:(487.50677,1769.3268)
+:Sending Touch (ACTION_MOVE): 0:(486.96945,1769.3484)
+:Sending Touch (ACTION_MOVE): 0:(486.46436,1769.7095)
+:Sending Touch (ACTION_MOVE): 0:(485.8718,1770.5376)
+:Sending Touch (ACTION_MOVE): 0:(485.5848,1770.9111)
+:Sending Touch (ACTION_UP): 0:(485.37872,1771.52)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(884.0,376.0)
+:Sending Touch (ACTION_MOVE): 0:(886.98956,375.35712)
+:Sending Touch (ACTION_MOVE): 0:(900.7437,356.78247)
+:Sending Touch (ACTION_UP): 0:(914.7319,340.18674)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1026.0,391.0)
+    //[calendar_time:2020-04-21 07:42:56.822  system_uptime:3164664]
+    // Sending event #600
+:Sending Touch (ACTION_UP): 0:(1006.4206,392.11142)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(438.0,341.0)
+:Sending Touch (ACTION_MOVE): 0:(418.7257,339.24182)
+:Sending Touch (ACTION_MOVE): 0:(408.0766,321.56912)
+:Sending Touch (ACTION_UP): 0:(390.61316,309.07617)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 173    // KEYCODE_DVR
+    // Injection Failed
+:Sending Key (ACTION_UP): 173    // KEYCODE_DVR
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(975.0,1774.0)
+:Sending Touch (ACTION_MOVE): 0:(981.57806,1782.4276)
+:Sending Touch (ACTION_MOVE): 0:(984.72156,1793.1389)
+:Sending Touch (ACTION_MOVE): 0:(987.72144,1794.0)
+:Sending Touch (ACTION_MOVE): 0:(996.83246,1794.0)
+:Sending Touch (ACTION_MOVE): 0:(1001.71277,1794.0)
+:Sending Touch (ACTION_MOVE): 0:(1008.1826,1794.0)
+:Sending Touch (ACTION_UP): 0:(1010.4926,1794.0)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1011.0,1599.0)
+:Sending Touch (ACTION_MOVE): 0:(996.4525,1598.2261)
+:Sending Touch (ACTION_MOVE): 0:(978.19226,1597.1897)
+:Sending Touch (ACTION_MOVE): 0:(974.0477,1596.2656)
+:Sending Touch (ACTION_MOVE): 0:(952.8607,1594.9282)
+:Sending Touch (ACTION_MOVE): 0:(950.0383,1593.9381)
+:Sending Touch (ACTION_UP): 0:(949.26544,1592.4263)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(928.0,1412.0)
+:Sending Touch (ACTION_UP): 0:(927.75055,1411.9994)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(20.0,1086.0)
+:Sending Touch (ACTION_UP): 0:(21.361464,1084.4753)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(440.0,277.0)
+:Sending Touch (ACTION_UP): 0:(445.33832,278.3402)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(307.0,374.0)
+:Sending Touch (ACTION_MOVE): 0:(295.24646,361.4914)
+:Sending Touch (ACTION_MOVE): 0:(286.28162,340.50616)
+:Sending Touch (ACTION_MOVE): 0:(282.86807,329.44818)
+:Sending Touch (ACTION_MOVE): 0:(274.54468,328.56378)
+:Sending Touch (ACTION_MOVE): 0:(270.30942,324.44666)
+:Sending Touch (ACTION_UP): 0:(269.9771,322.60953)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1017.0,662.0)
+:Sending Touch (ACTION_UP): 0:(1014.9278,649.88116)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(336.0,1016.0)
+:Sending Touch (ACTION_UP): 0:(329.15634,1014.56934)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 125    // KEYCODE_FORWARD
+    // Injection Failed
+:Sending Key (ACTION_UP): 125    // KEYCODE_FORWARD
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(764.0,583.0)
+:Sending Touch (ACTION_UP): 0:(763.75336,580.0923)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(432.0,402.0)
+:Sending Touch (ACTION_MOVE): 0:(438.91348,401.90717)
+:Sending Touch (ACTION_MOVE): 0:(441.08774,398.02368)
+:Sending Touch (ACTION_MOVE): 0:(444.31982,397.2706)
+:Sending Touch (ACTION_MOVE): 0:(459.43423,395.48877)
+:Sending Touch (ACTION_MOVE): 0:(469.6566,392.81335)
+:Sending Touch (ACTION_MOVE): 0:(482.23547,387.13397)
+:Sending Touch (ACTION_MOVE): 0:(501.90353,386.80316)
+:Sending Touch (ACTION_UP): 0:(514.88275,385.59796)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(842.0,1639.0)
+:Sending Touch (ACTION_MOVE): 0:(834.19965,1627.6241)
+:Sending Touch (ACTION_UP): 0:(833.78,1616.2264)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(620.0,1773.0)
+:Sending Touch (ACTION_UP): 0:(611.2973,1777.82)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(337.0,1662.0)
+:Sending Touch (ACTION_UP): 0:(337.59427,1671.9847)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(347.0,276.0)
+:Sending Touch (ACTION_UP): 0:(344.8724,279.54614)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(962.0,848.0)
+:Sending Touch (ACTION_MOVE): 0:(959.7748,847.0746)
+:Sending Touch (ACTION_MOVE): 0:(953.0223,842.5802)
+:Sending Touch (ACTION_UP): 0:(952.686,839.08563)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(847.0,1106.0)
+:Sending Touch (ACTION_MOVE): 0:(852.3538,1114.1553)
+:Sending Touch (ACTION_MOVE): 0:(861.1869,1116.5449)
+    //[calendar_time:2020-04-21 07:46:06.407  system_uptime:3354250]
+    // Sending event #700
+:Sending Touch (ACTION_UP): 0:(862.9657,1128.1946)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(18.0,841.0)
+:Sending Touch (ACTION_UP): 0:(0.0,853.9147)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(737.0,17.0)
+:Sending Touch (ACTION_UP): 0:(734.6523,17.292793)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(471.0,1587.0)
+:Sending Touch (ACTION_UP): 0:(484.5387,1589.685)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(791.0,386.0)
+:Sending Touch (ACTION_UP): 0:(790.8851,384.23828)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(397.0,895.0)
+:Sending Touch (ACTION_UP): 0:(402.20795,905.24896)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { cmp=com.android.settings/.deviceinfo.StorageWizardInit } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(0.0,1697.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1692.2894)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 103    // KEYCODE_BUTTON_R1
+    // Injection Failed
+:Sending Key (ACTION_UP): 103    // KEYCODE_BUTTON_R1
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(411.0,706.0)
+:Sending Touch (ACTION_UP): 0:(394.9817,713.15106)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(427.0,261.0)
+:Sending Touch (ACTION_MOVE): 0:(424.2149,263.36215)
+:Sending Touch (ACTION_MOVE): 0:(414.02927,264.32193)
+:Sending Touch (ACTION_MOVE): 0:(406.62497,265.65054)
+:Sending Touch (ACTION_MOVE): 0:(397.78802,265.87082)
+:Sending Touch (ACTION_MOVE): 0:(394.3096,266.1548)
+:Sending Touch (ACTION_MOVE): 0:(390.43204,268.4222)
+:Sending Touch (ACTION_UP): 0:(380.00403,270.55136)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1076.0,1513.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1511.1335)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(936.0,1106.0)
+:Sending Touch (ACTION_UP): 0:(931.2541,1103.4503)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(110.0,1610.0)
+:Sending Touch (ACTION_UP): 0:(115.26548,1599.9435)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(483.0,1414.0)
+:Sending Touch (ACTION_MOVE): 0:(480.09152,1413.9095)
+:Sending Touch (ACTION_MOVE): 0:(473.50125,1412.223)
+:Sending Touch (ACTION_UP): 0:(465.9253,1410.5227)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 74    // KEYCODE_SEMICOLON
+    // Injection Failed
+:Sending Key (ACTION_UP): 74    // KEYCODE_SEMICOLON
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(869.0,128.0)
+:Sending Touch (ACTION_MOVE): 0:(866.66455,113.41337)
+:Sending Touch (ACTION_MOVE): 0:(865.47565,103.1149)
+:Sending Touch (ACTION_MOVE): 0:(864.4124,92.25236)
+:Sending Touch (ACTION_MOVE): 0:(863.2888,82.41659)
+:Sending Touch (ACTION_MOVE): 0:(861.3068,80.287796)
+:Sending Touch (ACTION_MOVE): 0:(860.37036,68.09279)
+:Sending Touch (ACTION_MOVE): 0:(857.8056,58.39353)
+:Sending Touch (ACTION_MOVE): 0:(854.728,47.04617)
+:Sending Touch (ACTION_UP): 0:(853.4988,33.101032)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1070.0,858.0)
+:Sending Touch (ACTION_UP): 0:(1070.7952,865.61554)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(756.0,1653.0)
+:Sending Touch (ACTION_UP): 0:(755.9812,1653.7231)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+    //[calendar_time:2020-04-21 07:50:32.945  system_uptime:3620790]
+    // Sending event #800
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(16.0,618.0)
+:Sending Touch (ACTION_UP): 0:(13.10875,621.21124)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(531.0,666.0)
+:Sending Touch (ACTION_UP): 0:(523.1607,664.1131)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(691.0,594.0)
+:Sending Touch (ACTION_UP): 0:(686.4132,596.06915)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(436.0,1230.0)
+:Sending Touch (ACTION_MOVE): 0:(443.88443,1238.587)
+:Sending Touch (ACTION_MOVE): 0:(452.83554,1245.909)
+:Sending Touch (ACTION_MOVE): 0:(467.02432,1257.6727)
+:Sending Touch (ACTION_MOVE): 0:(467.27448,1258.393)
+:Sending Touch (ACTION_MOVE): 0:(475.2627,1266.2705)
+:Sending Touch (ACTION_MOVE): 0:(475.364,1270.0327)
+:Sending Touch (ACTION_MOVE): 0:(489.4882,1277.7341)
+:Sending Touch (ACTION_MOVE): 0:(493.79858,1291.725)
+:Sending Touch (ACTION_UP): 0:(507.19733,1299.5531)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(874.0,1652.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(870.45044,1665.7576) 1:(139.0,140.0)
+:Sending Touch (ACTION_MOVE): 0:(865.64355,1668.2725) 1:(131.93372,144.86522)
+:Sending Touch (ACTION_MOVE): 0:(859.6968,1672.0758) 1:(130.26787,154.69159)
+:Sending Touch (ACTION_MOVE): 0:(858.86957,1683.0708) 1:(129.51971,166.73701)
+:Sending Touch (ACTION_MOVE): 0:(855.45984,1696.7883) 1:(126.90068,176.30457)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(847.66785,1708.5588) 1:(121.56026,183.7272)
+:Sending Touch (ACTION_UP): 0:(841.666,1708.6355)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(293.0,1300.0)
+:Sending Touch (ACTION_UP): 0:(293.51852,1313.4602)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(213.0,1592.0)
+:Sending Touch (ACTION_UP): 0:(214.84492,1580.2888)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(43.0,248.0)
+:Sending Touch (ACTION_UP): 0:(49.586304,261.0557)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1003.0,627.0)
+:Sending Touch (ACTION_UP): 0:(1012.614,621.5671)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(757.0,1725.0)
+:Sending Touch (ACTION_UP): 0:(767.44135,1745.4977)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(36.0,557.0)
+:Sending Touch (ACTION_MOVE): 0:(35.57752,562.8403)
+:Sending Touch (ACTION_MOVE): 0:(35.31593,569.1814)
+:Sending Touch (ACTION_MOVE): 0:(34.705353,572.59454)
+:Sending Touch (ACTION_MOVE): 0:(34.232315,583.6561)
+:Sending Touch (ACTION_MOVE): 0:(34.187214,600.15955)
+:Sending Touch (ACTION_MOVE): 0:(34.123447,608.95557)
+:Sending Touch (ACTION_MOVE): 0:(33.464928,621.91425)
+:Sending Touch (ACTION_UP): 0:(33.132175,634.5765)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1037.0,1022.0)
+:Sending Touch (ACTION_UP): 0:(1056.993,1018.54254)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(918.0,445.0)
+:Sending Touch (ACTION_MOVE): 0:(918.38184,442.52283)
+:Sending Touch (ACTION_MOVE): 0:(920.3971,423.15564)
+:Sending Touch (ACTION_MOVE): 0:(922.2138,405.89908)
+:Sending Touch (ACTION_MOVE): 0:(923.4802,396.8623)
+:Sending Touch (ACTION_MOVE): 0:(924.7857,384.63782)
+:Sending Touch (ACTION_MOVE): 0:(925.27466,380.2095)
+:Sending Touch (ACTION_MOVE): 0:(925.59344,378.93353)
+:Sending Touch (ACTION_UP): 0:(926.63464,359.231)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1045.0,211.0)
+:Sending Touch (ACTION_UP): 0:(1045.0,224.37608)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(657.0,1448.0)
+:Sending Touch (ACTION_MOVE): 0:(666.1475,1445.5513)
+:Sending Touch (ACTION_MOVE): 0:(669.447,1443.1654)
+:Sending Touch (ACTION_UP): 0:(673.8813,1440.9463)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 262    // KEYCODE_NAVIGATE_IN
+    // Injection Failed
+:Sending Key (ACTION_UP): 262    // KEYCODE_NAVIGATE_IN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(38.0,1597.0)
+:Sending Touch (ACTION_UP): 0:(34.306263,1586.7568)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(647.0,355.0)
+:Sending Touch (ACTION_UP): 0:(652.3248,335.28613)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(606.0,119.0)
+:Sending Touch (ACTION_MOVE): 0:(593.042,130.89546)
+:Sending Touch (ACTION_UP): 0:(587.24,135.1377)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(189.0,219.0)
+:Sending Touch (ACTION_UP): 0:(188.93654,224.88011)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(197.0,655.0)
+:Sending Touch (ACTION_MOVE): 0:(197.25937,656.6761)
+:Sending Touch (ACTION_MOVE): 0:(198.163,660.24786)
+:Sending Touch (ACTION_MOVE): 0:(199.93686,665.32574)
+:Sending Touch (ACTION_MOVE): 0:(200.9821,667.4339)
+:Sending Touch (ACTION_MOVE): 0:(202.02159,668.2276)
+:Sending Touch (ACTION_MOVE): 0:(202.74968,677.57104)
+:Sending Touch (ACTION_MOVE): 0:(204.38664,682.2921)
+:Sending Touch (ACTION_UP): 0:(206.2174,687.8864)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 79    // KEYCODE_HEADSETHOOK
+    // Injection Failed
+:Sending Key (ACTION_UP): 79    // KEYCODE_HEADSETHOOK
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(288.0,616.0)
+:Sending Touch (ACTION_UP): 0:(294.16428,615.12933)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(122.0,699.0)
+    //[calendar_time:2020-04-21 07:52:17.254  system_uptime:3725096]
+    // Sending event #900
+:Sending Touch (ACTION_MOVE): 0:(123.89145,696.695)
+:Sending Touch (ACTION_MOVE): 0:(126.54254,678.2364)
+:Sending Touch (ACTION_MOVE): 0:(128.15263,660.21564)
+:Sending Touch (ACTION_MOVE): 0:(130.08139,647.82935)
+:Sending Touch (ACTION_MOVE): 0:(132.62741,642.73987)
+:Sending Touch (ACTION_MOVE): 0:(134.89174,623.9428)
+:Sending Touch (ACTION_MOVE): 0:(135.79944,611.13086)
+:Sending Touch (ACTION_MOVE): 0:(137.96065,607.0081)
+:Sending Touch (ACTION_UP): 0:(138.25832,600.7239)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(317.0,1542.0)
+:Sending Touch (ACTION_UP): 0:(331.94858,1537.9744)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(484.0,186.0)
+:Sending Touch (ACTION_UP): 0:(473.78055,186.91206)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(695.0,176.0)
+:Sending Touch (ACTION_UP): 0:(688.3679,177.75607)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 228    // KEYCODE_12
+    // Injection Failed
+:Sending Key (ACTION_UP): 228    // KEYCODE_12
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(350.0,370.0)
+:Sending Touch (ACTION_UP): 0:(340.50214,370.32294)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(592.0,1239.0)
+:Sending Touch (ACTION_MOVE): 0:(586.0413,1240.8884)
+:Sending Touch (ACTION_MOVE): 0:(583.91864,1241.1204)
+:Sending Touch (ACTION_MOVE): 0:(578.70605,1244.3745)
+:Sending Touch (ACTION_UP): 0:(577.7256,1248.0787)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(753.0,484.0)
+:Sending Touch (ACTION_UP): 0:(738.49005,470.98782)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(531.0,189.0)
+:Sending Touch (ACTION_UP): 0:(513.4506,192.06139)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 264    // KEYCODE_STEM_PRIMARY
+    // Injection Failed
+:Sending Key (ACTION_UP): 264    // KEYCODE_STEM_PRIMARY
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1072.0,1245.0)
+:Sending Touch (ACTION_MOVE): 0:(1073.018,1262.6382)
+:Sending Touch (ACTION_MOVE): 0:(1075.2625,1281.463)
+:Sending Touch (ACTION_MOVE): 0:(1078.5175,1297.0083)
+:Sending Touch (ACTION_MOVE): 0:(1078.8086,1297.8584)
+:Sending Touch (ACTION_UP): 0:(1080.0,1306.2894)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(213.0,1411.0)
+:Sending Touch (ACTION_MOVE): 0:(195.77428,1408.7345)
+:Sending Touch (ACTION_MOVE): 0:(178.27849,1408.0222)
+:Sending Touch (ACTION_MOVE): 0:(162.30043,1407.8618)
+:Sending Touch (ACTION_MOVE): 0:(161.9828,1407.2269)
+:Sending Touch (ACTION_MOVE): 0:(148.01437,1406.9152)
+:Sending Touch (ACTION_MOVE): 0:(144.1895,1405.2203)
+:Sending Touch (ACTION_MOVE): 0:(125.241974,1404.1932)
+:Sending Touch (ACTION_UP): 0:(103.488754,1402.1271)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(626.0,1480.0)
+:Sending Touch (ACTION_UP): 0:(629.4784,1480.268)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(942.0,1428.0)
+:Sending Touch (ACTION_UP): 0:(947.2101,1418.4938)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(553.0,1307.0)
+:Sending Touch (ACTION_UP): 0:(536.27673,1292.1212)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1043.0,1181.0)
+:Sending Touch (ACTION_UP): 0:(1030.9912,1191.349)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(113.0,449.0)
+:Sending Touch (ACTION_UP): 0:(104.67639,433.20303)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(959.0,943.0)
+:Sending Touch (ACTION_UP): 0:(962.5553,932.97046)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(452.0,732.0)
+:Sending Touch (ACTION_UP): 0:(441.51614,740.35535)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(12.0,1359.0)
+:Sending Touch (ACTION_MOVE): 0:(2.816743,1360.7705)
+:Sending Touch (ACTION_UP): 0:(0.0,1361.6111)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(821.0,1474.0)
+:Sending Touch (ACTION_UP): 0:(816.56757,1471.2703)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(683.0,1210.0)
+:Sending Touch (ACTION_MOVE): 0:(685.1618,1191.7316)
+    //[calendar_time:2020-04-21 07:55:37.813  system_uptime:3925656]
+    // Sending event #1000
+:Sending Touch (ACTION_MOVE): 0:(687.45807,1169.8002)
+:Sending Touch (ACTION_MOVE): 0:(694.97217,1167.0211)
+:Sending Touch (ACTION_UP): 0:(696.9487,1160.4867)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(862.0,75.0)
+:Sending Touch (ACTION_UP): 0:(858.9808,81.516205)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(660.0,1089.0)
+:Sending Touch (ACTION_UP): 0:(657.39233,1101.0116)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(229.0,161.0)
+:Sending Touch (ACTION_UP): 0:(229.36627,162.15033)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(235.0,1227.0)
+:Sending Touch (ACTION_UP): 0:(228.11018,1219.2473)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(90.0,1587.0)
+:Sending Touch (ACTION_UP): 0:(89.50909,1573.705)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(156.0,464.0)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_MOVE): 0:(143.9707,459.03925)
+:Sending Touch (ACTION_MOVE): 0:(130.30678,447.19717)
+:Sending Touch (ACTION_MOVE): 0:(109.45646,443.15753)
+:Sending Touch (ACTION_MOVE): 0:(105.8524,433.71588)
+:Sending Touch (ACTION_MOVE): 0:(86.45216,428.72165)
+:Sending Touch (ACTION_MOVE): 0:(84.77943,422.29086)
+:Sending Touch (ACTION_MOVE): 0:(81.854996,414.19315)
+:Sending Touch (ACTION_MOVE): 0:(69.02995,413.9386)
+:Sending Touch (ACTION_MOVE): 0:(55.152527,402.60483)
+:Sending Touch (ACTION_UP): 0:(50.245533,400.70847)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(999.0,1455.0)
+:Sending Touch (ACTION_MOVE): 0:(1011.8715,1467.1)
+:Sending Touch (ACTION_MOVE): 0:(1016.0876,1483.7379)
+:Sending Touch (ACTION_MOVE): 0:(1026.901,1489.9519)
+:Sending Touch (ACTION_MOVE): 0:(1034.0524,1495.9222)
+:Sending Touch (ACTION_MOVE): 0:(1039.2593,1519.2349)
+:Sending Touch (ACTION_MOVE): 0:(1044.6351,1531.2844)
+:Sending Touch (ACTION_MOVE): 0:(1057.4186,1537.5436)
+:Sending Touch (ACTION_MOVE): 0:(1062.9941,1542.9182)
+:Sending Touch (ACTION_UP): 0:(1063.7351,1562.6302)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(915.0,793.0)
+:Sending Touch (ACTION_UP): 0:(922.62946,813.78455)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(938.0,81.0)
+:Sending Touch (ACTION_UP): 0:(948.2776,81.846146)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(801.0,1689.0)
+:Sending Touch (ACTION_UP): 0:(803.05023,1695.4199)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(885.0,367.0)
+:Sending Touch (ACTION_UP): 0:(885.1721,361.1166)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(270.0,1369.0)
+:Sending Touch (ACTION_UP): 0:(281.79398,1370.8154)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(858.0,660.0)
+:Sending Touch (ACTION_UP): 0:(847.80695,656.4494)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(827.0,1141.0)
+:Sending Touch (ACTION_UP): 0:(805.22363,1132.9773)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(829.0,1188.0)
+:Sending Touch (ACTION_MOVE): 0:(830.34204,1175.674)
+:Sending Touch (ACTION_UP): 0:(830.75415,1174.0138)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(238.0,512.0)
+:Sending Touch (ACTION_UP): 0:(241.70853,524.40454)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(929.0,261.0)
+:Sending Touch (ACTION_UP): 0:(924.0549,256.78326)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(204.0,1464.0)
+:Sending Touch (ACTION_MOVE): 0:(207.06938,1464.7103)
+:Sending Touch (ACTION_MOVE): 0:(210.48973,1464.8351)
+:Sending Touch (ACTION_MOVE): 0:(212.8812,1468.3041)
+:Sending Touch (ACTION_MOVE): 0:(213.66199,1468.4144)
+:Sending Touch (ACTION_MOVE): 0:(217.08531,1469.8658)
+:Sending Touch (ACTION_MOVE): 0:(218.92253,1472.3453)
+:Sending Touch (ACTION_MOVE): 0:(219.43091,1473.2346)
+:Sending Touch (ACTION_UP): 0:(221.90869,1475.8776)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1007.0,1405.0)
+:Sending Touch (ACTION_UP): 0:(1010.107,1397.2961)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 97    // KEYCODE_BUTTON_B
+    // Injection Failed
+:Sending Key (ACTION_UP): 97    // KEYCODE_BUTTON_B
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(771.0,1592.0)
+:Sending Touch (ACTION_UP): 0:(770.3028,1594.9779)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 183    // KEYCODE_PROG_RED
+    // Injection Failed
+:Sending Key (ACTION_UP): 183    // KEYCODE_PROG_RED
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1051.0,982.0)
+:Sending Touch (ACTION_UP): 0:(1063.3788,989.3106)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(653.0,788.0)
+:Sending Touch (ACTION_MOVE): 0:(648.3964,803.46094)
+:Sending Touch (ACTION_UP): 0:(639.01666,819.36847)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(116.0,1017.0)
+:Sending Touch (ACTION_MOVE): 0:(105.16676,1017.4813)
+:Sending Touch (ACTION_MOVE): 0:(95.08073,1022.7461)
+:Sending Touch (ACTION_MOVE): 0:(85.645164,1027.5664)
+:Sending Touch (ACTION_UP): 0:(83.076065,1029.8698)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+    //[calendar_time:2020-04-21 07:57:34.021  system_uptime:4041864]
+    // Sending event #1100
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(530.0,759.0)
+:Sending Touch (ACTION_UP): 0:(525.9612,758.6569)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1028.0,508.0)
+:Sending Touch (ACTION_MOVE): 0:(1021.67737,512.18524)
+:Sending Touch (ACTION_MOVE): 0:(1012.8658,518.2616)
+:Sending Touch (ACTION_MOVE): 0:(990.8777,523.45013)
+:Sending Touch (ACTION_MOVE): 0:(985.12274,531.71436)
+:Sending Touch (ACTION_MOVE): 0:(966.4655,538.6833)
+:Sending Touch (ACTION_MOVE): 0:(963.97723,547.75385)
+:Sending Touch (ACTION_MOVE): 0:(941.52057,559.914)
+:Sending Touch (ACTION_MOVE): 0:(929.6405,567.1144)
+:Sending Touch (ACTION_MOVE): 0:(911.8683,567.47235)
+:Sending Touch (ACTION_UP): 0:(896.1731,575.0911)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(699.0,787.0)
+:Sending Touch (ACTION_MOVE): 0:(700.1075,787.5179)
+:Sending Touch (ACTION_MOVE): 0:(708.06775,789.15393)
+:Sending Touch (ACTION_MOVE): 0:(726.7605,790.9922)
+:Sending Touch (ACTION_MOVE): 0:(736.0498,794.0727)
+:Sending Touch (ACTION_MOVE): 0:(738.83685,797.5983)
+:Sending Touch (ACTION_MOVE): 0:(747.67456,800.3244)
+:Sending Touch (ACTION_UP): 0:(755.7479,801.1127)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(331.0,823.0)
+:Sending Touch (ACTION_UP): 0:(336.1009,838.6582)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(277.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(271.46564,1145.4667)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(30.0,921.0)
+:Sending Touch (ACTION_MOVE): 0:(18.220432,921.37024)
+:Sending Touch (ACTION_MOVE): 0:(12.0867815,921.511)
+:Sending Touch (ACTION_MOVE): 0:(8.979818,923.3297)
+:Sending Touch (ACTION_UP): 0:(0.0,923.844)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(659.0,1137.0)
+:Sending Touch (ACTION_UP): 0:(670.7789,1125.7761)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(36.0,933.0)
+:Sending Touch (ACTION_UP): 0:(41.75536,926.6512)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(435.0,1449.0)
+:Sending Touch (ACTION_UP): 0:(436.78613,1445.949)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(1000.0,1540.0)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(1003.8425,1529.1971)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(1008.6748,1527.279)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(835.0,207.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(834.84985,211.48088)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(379.0,690.0)
+:Sending Touch (ACTION_UP): 0:(390.24924,678.8233)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(182.0,35.0)
+:Sending Touch (ACTION_UP): 0:(179.15475,55.06703)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(979.0,812.0)
+:Sending Touch (ACTION_UP): 0:(978.512,803.8931)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(126.0,172.0)
+:Sending Touch (ACTION_UP): 0:(121.55879,171.7866)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(203.0,872.0)
+:Sending Touch (ACTION_UP): 0:(215.3079,873.08844)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(543.0,1669.0)
+:Sending Touch (ACTION_UP): 0:(541.10657,1682.8826)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(731.0,1642.0)
+:Sending Touch (ACTION_UP): 0:(744.0604,1639.1681)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 185    // KEYCODE_PROG_YELLOW
+:Sending Key (ACTION_UP): 185    // KEYCODE_PROG_YELLOW
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(544.0,107.0)
+:Sending Touch (ACTION_MOVE): 0:(543.76355,97.1274)
+:Sending Touch (ACTION_MOVE): 0:(535.74646,88.711235)
+:Sending Touch (ACTION_MOVE): 0:(530.4383,84.25015)
+:Sending Touch (ACTION_MOVE): 0:(527.3398,74.57)
+:Sending Touch (ACTION_UP): 0:(522.14996,66.4341)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(645.0,1388.0)
+:Sending Touch (ACTION_UP): 0:(637.57605,1408.2305)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(238.0,407.0)
+:Sending Touch (ACTION_UP): 0:(246.78271,388.35645)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.camera2/com.android.camera.CameraLauncher } in package com.android.camera2
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 185    // KEYCODE_PROG_YELLOW
+:Sending Key (ACTION_UP): 185    // KEYCODE_PROG_YELLOW
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(858.0,1670.0)
+:Sending Touch (ACTION_MOVE): 0:(850.3592,1650.1254)
+    //[calendar_time:2020-04-21 07:59:30.398  system_uptime:4158240]
+    // Sending event #1200
+:Sending Touch (ACTION_MOVE): 0:(837.8462,1638.0814)
+:Sending Touch (ACTION_MOVE): 0:(825.778,1617.3065)
+:Sending Touch (ACTION_MOVE): 0:(824.9021,1615.5955)
+:Sending Touch (ACTION_UP): 0:(823.9835,1594.3136)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(736.0,1065.0)
+:Sending Touch (ACTION_MOVE): 0:(735.4739,1077.4058)
+:Sending Touch (ACTION_MOVE): 0:(724.5331,1078.4534)
+:Sending Touch (ACTION_UP): 0:(719.4244,1092.4298)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(92.0,290.0)
+:Sending Touch (ACTION_UP): 0:(111.98571,289.9787)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(327.0,925.0)
+:Sending Touch (ACTION_UP): 0:(319.22656,937.1271)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.dialer/.main.impl.MainActivity } in package com.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(986.0,519.0)
+:Sending Touch (ACTION_UP): 0:(992.1809,528.4695)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity } in package com.google.android.apps.maps
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(709.0,1379.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(698.34424,1373.9689)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(612.0,1193.0)
+:Sending Touch (ACTION_UP): 0:(623.1775,1192.2285)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(979.0,729.0)
+:Sending Touch (ACTION_UP): 0:(968.6185,732.38947)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(407.0,1427.0)
+:Sending Touch (ACTION_UP): 0:(399.67493,1427.8453)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(491.0,503.0)
+:Sending Touch (ACTION_UP): 0:(494.94702,500.62164)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(753.0,7.0)
+:Sending Touch (ACTION_MOVE): 0:(749.05994,13.0188675)
+:Sending Touch (ACTION_MOVE): 0:(740.7111,14.998875)
+:Sending Touch (ACTION_MOVE): 0:(728.92236,22.895609)
+:Sending Touch (ACTION_MOVE): 0:(716.3233,35.812218)
+:Sending Touch (ACTION_MOVE): 0:(703.60126,53.56253)
+:Sending Touch (ACTION_UP): 0:(691.5326,64.470245)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1021.0,1125.0)
+:Sending Touch (ACTION_UP): 0:(1019.7873,1140.2368)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 234    // KEYCODE_TV_NUMBER_ENTRY
+    // Injection Failed
+:Sending Key (ACTION_UP): 234    // KEYCODE_TV_NUMBER_ENTRY
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(917.0,1721.0)
+:Sending Touch (ACTION_MOVE): 0:(916.9946,1732.8541)
+:Sending Touch (ACTION_MOVE): 0:(913.32904,1748.1685)
+:Sending Touch (ACTION_MOVE): 0:(911.8492,1758.5823)
+:Sending Touch (ACTION_UP): 0:(910.3091,1762.8684)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(898.0,1653.0)
+:Sending Touch (ACTION_MOVE): 0:(898.6673,1665.5339)
+:Sending Touch (ACTION_MOVE): 0:(899.1585,1673.0748)
+:Sending Touch (ACTION_MOVE): 0:(899.4961,1689.0298)
+:Sending Touch (ACTION_MOVE): 0:(901.7389,1707.9546)
+:Sending Touch (ACTION_MOVE): 0:(903.3044,1725.7225)
+:Sending Touch (ACTION_UP): 0:(905.38666,1727.3828)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(252.0,61.0)
+:Sending Touch (ACTION_MOVE): 0:(264.96826,58.76436)
+:Sending Touch (ACTION_MOVE): 0:(266.99298,57.2707)
+:Sending Touch (ACTION_MOVE): 0:(284.0219,55.68433)
+:Sending Touch (ACTION_MOVE): 0:(305.8709,53.916637)
+:Sending Touch (ACTION_MOVE): 0:(322.74982,52.43867)
+:Sending Touch (ACTION_MOVE): 0:(328.24045,50.643173)
+:Sending Touch (ACTION_MOVE): 0:(334.58008,50.15662)
+:Sending Touch (ACTION_UP): 0:(339.31943,48.368214)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(45.0,1470.0)
+:Sending Touch (ACTION_UP): 0:(44.344494,1472.7684)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(135.0,278.0)
+:Sending Touch (ACTION_UP): 0:(140.9601,281.24756)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(260.0,1338.0)
+:Sending Touch (ACTION_MOVE): 0:(260.01447,1339.917)
+:Sending Touch (ACTION_MOVE): 0:(260.2067,1349.1265)
+:Sending Touch (ACTION_MOVE): 0:(269.59662,1349.3115)
+:Sending Touch (ACTION_MOVE): 0:(271.4527,1360.2599)
+:Sending Touch (ACTION_MOVE): 0:(278.2736,1361.163)
+:Sending Touch (ACTION_MOVE): 0:(286.86005,1372.243)
+:Sending Touch (ACTION_MOVE): 0:(291.89426,1380.1562)
+:Sending Touch (ACTION_MOVE): 0:(292.20334,1389.1322)
+:Sending Touch (ACTION_UP): 0:(293.26202,1397.3662)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(276.0,1553.0)
+:Sending Touch (ACTION_UP): 0:(270.02032,1554.897)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(778.0,1690.0)
+:Sending Touch (ACTION_UP): 0:(774.62976,1677.2068)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(522.0,1174.0)
+:Sending Touch (ACTION_MOVE): 0:(537.60284,1165.5156)
+:Sending Touch (ACTION_MOVE): 0:(541.4055,1158.6211)
+:Sending Touch (ACTION_UP): 0:(554.20825,1157.1003)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(715.0,1474.0)
+:Sending Touch (ACTION_UP): 0:(720.6955,1461.3711)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(1030.0,781.0)
+    //[calendar_time:2020-04-21 08:01:00.622  system_uptime:4248465]
+    // Sending event #1300
+:Sending Touch (ACTION_MOVE): 0:(1031.2719,764.1969)
+:Sending Touch (ACTION_MOVE): 0:(1036.003,746.5532)
+:Sending Touch (ACTION_MOVE): 0:(1038.8151,722.9521)
+:Sending Touch (ACTION_MOVE): 0:(1039.155,712.90753)
+:Sending Touch (ACTION_MOVE): 0:(1047.7559,712.6148)
+:Sending Touch (ACTION_UP): 0:(1054.2985,705.42474)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(566.0,252.0)
+:Sending Touch (ACTION_UP): 0:(573.1828,275.29218)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(672.0,322.0)
+:Sending Touch (ACTION_MOVE): 0:(688.8601,322.13687)
+:Sending Touch (ACTION_MOVE): 0:(698.83984,322.4886)
+:Sending Touch (ACTION_MOVE): 0:(702.7272,323.2327)
+:Sending Touch (ACTION_UP): 0:(707.9184,323.41702)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,1055.0)
+:Sending Touch (ACTION_MOVE): 0:(161.57411,1073.8229)
+:Sending Touch (ACTION_MOVE): 0:(164.00208,1090.9639)
+:Sending Touch (ACTION_MOVE): 0:(167.44786,1104.2263)
+:Sending Touch (ACTION_MOVE): 0:(168.32274,1119.217)
+:Sending Touch (ACTION_MOVE): 0:(171.16289,1130.2625)
+:Sending Touch (ACTION_MOVE): 0:(174.77112,1139.0188)
+:Sending Touch (ACTION_MOVE): 0:(178.10767,1156.1346)
+:Sending Touch (ACTION_UP): 0:(183.03572,1164.8875)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(413.0,979.0)
+:Sending Touch (ACTION_UP): 0:(400.40518,979.07745)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(130.0,570.0)
+:Sending Touch (ACTION_MOVE): 0:(110.136154,547.6477)
+:Sending Touch (ACTION_MOVE): 0:(108.39465,534.27673)
+:Sending Touch (ACTION_MOVE): 0:(103.40033,514.68396)
+:Sending Touch (ACTION_MOVE): 0:(80.556114,511.2801)
+:Sending Touch (ACTION_MOVE): 0:(72.835365,499.9066)
+:Sending Touch (ACTION_MOVE): 0:(68.83247,492.54816)
+:Sending Touch (ACTION_MOVE): 0:(63.128822,476.8241)
+:Sending Touch (ACTION_MOVE): 0:(57.144936,464.54526)
+:Sending Touch (ACTION_UP): 0:(44.063087,454.92725)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(942.0,374.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(947.59625,379.06555) 1:(56.0,959.0)
+:Sending Touch (ACTION_MOVE): 0:(947.9486,379.72275) 1:(48.94993,957.79675)
+:Sending Touch (ACTION_MOVE): 0:(954.8288,381.78314) 1:(42.561897,957.31775)
+:Sending Touch (ACTION_MOVE): 0:(961.6805,382.16992) 1:(35.85825,956.46497)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(963.2354,388.31512) 1:(30.877466,956.26373)
+:Sending Touch (ACTION_UP): 0:(966.9228,391.70782)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(952.0,451.0)
+:Sending Touch (ACTION_UP): 0:(951.57007,443.0943)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(203.0,974.0)
+:Sending Touch (ACTION_UP): 0:(204.40192,973.12933)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(552.0,1271.0)
+:Sending Touch (ACTION_MOVE): 0:(557.9368,1270.4902)
+:Sending Touch (ACTION_MOVE): 0:(566.12897,1270.4307)
+:Sending Touch (ACTION_MOVE): 0:(569.84674,1270.1168)
+:Sending Touch (ACTION_MOVE): 0:(573.96216,1269.4414)
+:Sending Touch (ACTION_UP): 0:(579.83215,1269.3094)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(7.0,796.0)
+:Sending Touch (ACTION_UP): 0:(0.01239109,800.01166)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(371.0,711.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(377.18073,708.41516) 1:(331.0,177.0)
+:Sending Touch (ACTION_MOVE): 0:(388.5307,699.8171) 1:(333.7123,173.82838)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(393.5884,696.9577) 1:(340.9893,171.19936)
+:Sending Touch (ACTION_UP): 0:(396.80722,682.2548)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(232.0,227.0)
+:Sending Touch (ACTION_UP): 0:(228.55376,217.91656)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(282.0,350.0)
+:Sending Touch (ACTION_UP): 0:(285.51175,335.77756)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(469.0,1067.0)
+:Sending Touch (ACTION_MOVE): 0:(473.41357,1060.8651)
+:Sending Touch (ACTION_UP): 0:(478.75854,1053.8788)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 265    // KEYCODE_STEM_1
+    // Injection Failed
+:Sending Key (ACTION_UP): 265    // KEYCODE_STEM_1
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(196.0,905.0)
+:Sending Touch (ACTION_UP): 0:(199.18964,900.6655)
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(133.0,13.0)
+:Sending Touch (ACTION_UP): 0:(129.64438,18.620993)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 176    // KEYCODE_SETTINGS
+:Sending Key (ACTION_UP): 176    // KEYCODE_SETTINGS
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(24.0,589.0)
+:Sending Touch (ACTION_UP): 0:(23.274908,594.4584)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(574.0,1265.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(570.07916,1262.4213) 1:(554.0,672.0)
+:Sending Touch (ACTION_MOVE): 0:(569.3849,1259.3337) 1:(573.36316,671.5994)
+:Sending Touch (ACTION_MOVE): 0:(558.62054,1258.0725) 1:(595.061,671.16724)
+:Sending Touch (ACTION_MOVE): 0:(543.0256,1256.6127) 1:(607.6705,670.8263)
+:Sending Touch (ACTION_MOVE): 0:(539.23816,1256.2812) 1:(611.3702,670.353)
+:Sending Touch (ACTION_MOVE): 0:(528.3333,1256.0729) 1:(620.6136,670.0107)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(524.19916,1254.5344) 1:(623.80884,669.45807)
+:Sending Touch (ACTION_UP): 0:(508.90216,1254.0912)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(209.0,1636.0)
+    //[calendar_time:2020-04-21 08:02:30.683  system_uptime:4338526]
+    // Sending event #1400
+:Sending Touch (ACTION_MOVE): 0:(208.50241,1645.6658)
+:Sending Touch (ACTION_MOVE): 0:(196.39131,1656.108)
+:Sending Touch (ACTION_MOVE): 0:(189.85324,1656.8005)
+:Sending Touch (ACTION_UP): 0:(179.96935,1667.6497)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(825.0,1705.0)
+:Sending Touch (ACTION_UP): 0:(837.4896,1712.9163)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 93    // KEYCODE_PAGE_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 93    // KEYCODE_PAGE_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(337.0,1233.0)
+:Sending Touch (ACTION_UP): 0:(347.2302,1230.7269)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(395.0,1086.0)
+:Sending Touch (ACTION_UP): 0:(395.34464,1086.9597)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1013.0,1762.0)
+:Sending Touch (ACTION_UP): 0:(1015.72955,1769.2607)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(294.0,1275.0)
+:Sending Touch (ACTION_MOVE): 0:(291.84122,1270.7523)
+:Sending Touch (ACTION_MOVE): 0:(289.23877,1251.3625)
+:Sending Touch (ACTION_MOVE): 0:(286.8154,1246.0488)
+:Sending Touch (ACTION_MOVE): 0:(285.7821,1239.9783)
+:Sending Touch (ACTION_MOVE): 0:(282.36584,1233.4806)
+:Sending Touch (ACTION_MOVE): 0:(279.87857,1214.5505)
+:Sending Touch (ACTION_MOVE): 0:(277.42856,1212.2769)
+:Sending Touch (ACTION_MOVE): 0:(275.7114,1205.7517)
+:Sending Touch (ACTION_UP): 0:(274.98822,1187.0797)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(636.0,1710.0)
+:Sending Touch (ACTION_MOVE): 0:(633.5872,1698.821)
+:Sending Touch (ACTION_MOVE): 0:(630.6032,1694.083)
+:Sending Touch (ACTION_MOVE): 0:(630.15753,1683.3873)
+:Sending Touch (ACTION_UP): 0:(629.8202,1671.5786)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(147.0,21.0)
+:Sending Touch (ACTION_MOVE): 0:(149.12315,26.145609)
+:Sending Touch (ACTION_MOVE): 0:(152.66876,27.977169)
+:Sending Touch (ACTION_MOVE): 0:(158.88614,39.298412)
+:Sending Touch (ACTION_MOVE): 0:(164.50262,43.59116)
+:Sending Touch (ACTION_MOVE): 0:(166.51349,44.63269)
+:Sending Touch (ACTION_UP): 0:(173.039,56.376152)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(853.0,1424.0)
+:Sending Touch (ACTION_UP): 0:(850.09607,1430.3026)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(254.0,472.0)
+:Sending Touch (ACTION_UP): 0:(260.04184,470.96817)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(568.0,412.0)
+:Sending Touch (ACTION_UP): 0:(572.89746,429.52438)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 220    // KEYCODE_BRIGHTNESS_DOWN
+    // Rejecting start of Intent { act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.BrightnessDialog } in package com.android.systemui
+:Sending Key (ACTION_UP): 220    // KEYCODE_BRIGHTNESS_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(548.0,763.0)
+:Sending Touch (ACTION_UP): 0:(551.4221,762.371)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(471.0,95.0)
+:Sending Touch (ACTION_UP): 0:(470.97366,91.9942)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(230.0,1254.0)
+:Sending Touch (ACTION_UP): 0:(229.92445,1250.5669)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 138    // KEYCODE_F8
+    // Injection Failed
+:Sending Key (ACTION_UP): 138    // KEYCODE_F8
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(760.0,1435.0)
+:Sending Touch (ACTION_MOVE): 0:(746.59094,1434.8887)
+:Sending Touch (ACTION_UP): 0:(734.2589,1433.6301)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(211.0,202.0)
+:Sending Touch (ACTION_MOVE): 0:(223.71118,202.19997)
+:Sending Touch (ACTION_MOVE): 0:(241.74316,202.8432)
+:Sending Touch (ACTION_MOVE): 0:(242.24199,202.8606)
+:Sending Touch (ACTION_UP): 0:(251.74469,203.1297)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(649.0,655.0)
+:Sending Touch (ACTION_MOVE): 0:(636.3225,654.9927)
+:Sending Touch (ACTION_MOVE): 0:(619.59546,654.93243)
+:Sending Touch (ACTION_MOVE): 0:(607.2474,654.8677)
+:Sending Touch (ACTION_MOVE): 0:(603.88086,654.74426)
+:Sending Touch (ACTION_UP): 0:(603.4521,654.6144)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(231.0,219.0)
+:Sending Touch (ACTION_UP): 0:(229.53755,229.36377)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(805.0,493.0)
+:Sending Touch (ACTION_MOVE): 0:(805.3627,487.5396)
+:Sending Touch (ACTION_MOVE): 0:(805.8523,480.66763)
+:Sending Touch (ACTION_MOVE): 0:(807.0654,475.02783)
+:Sending Touch (ACTION_MOVE): 0:(807.7862,470.72943)
+:Sending Touch (ACTION_MOVE): 0:(808.95685,466.55057)
+:Sending Touch (ACTION_MOVE): 0:(809.12616,465.32288)
+:Sending Touch (ACTION_MOVE): 0:(809.5376,460.17987)
+:Sending Touch (ACTION_UP): 0:(811.2206,460.0544)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 122    // KEYCODE_MOVE_HOME
+    // Injection Failed
+:Sending Key (ACTION_UP): 122    // KEYCODE_MOVE_HOME
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+    //[calendar_time:2020-04-21 08:04:51.776  system_uptime:4479619]
+    // Sending event #1500
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(146.0,941.0)
+:Sending Touch (ACTION_UP): 0:(139.32166,955.70386)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(336.0,1527.0)
+:Sending Touch (ACTION_UP): 0:(324.33142,1534.594)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(889.0,1646.0)
+:Sending Touch (ACTION_MOVE): 0:(870.5677,1666.184)
+:Sending Touch (ACTION_MOVE): 0:(856.4505,1669.2272)
+:Sending Touch (ACTION_MOVE): 0:(838.3393,1670.7693)
+:Sending Touch (ACTION_UP): 0:(829.6879,1683.7559)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(224.0,1635.0)
+:Sending Touch (ACTION_MOVE): 0:(223.55615,1635.7277)
+:Sending Touch (ACTION_MOVE): 0:(222.27582,1637.6558)
+:Sending Touch (ACTION_MOVE): 0:(220.6215,1643.3527)
+:Sending Touch (ACTION_MOVE): 0:(219.85048,1649.6609)
+:Sending Touch (ACTION_MOVE): 0:(217.93063,1651.8188)
+:Sending Touch (ACTION_MOVE): 0:(216.31067,1657.9028)
+:Sending Touch (ACTION_MOVE): 0:(216.10762,1658.0221)
+:Sending Touch (ACTION_UP): 0:(215.60255,1660.9993)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(652.0,445.0)
+:Sending Touch (ACTION_UP): 0:(643.8989,445.2125)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(814.0,1118.0)
+:Sending Touch (ACTION_MOVE): 0:(812.6811,1126.842)
+:Sending Touch (ACTION_MOVE): 0:(812.3846,1131.4152)
+:Sending Touch (ACTION_MOVE): 0:(811.7463,1136.84)
+:Sending Touch (ACTION_MOVE): 0:(811.2041,1146.1355)
+:Sending Touch (ACTION_MOVE): 0:(810.0543,1153.399)
+:Sending Touch (ACTION_MOVE): 0:(809.89777,1156.9167)
+:Sending Touch (ACTION_MOVE): 0:(809.031,1157.3306)
+:Sending Touch (ACTION_MOVE): 0:(808.2713,1162.5996)
+:Sending Touch (ACTION_MOVE): 0:(806.9817,1169.0334)
+:Sending Touch (ACTION_UP): 0:(805.79407,1170.7687)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(324.0,1212.0)
+:Sending Touch (ACTION_UP): 0:(317.76025,1211.989)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(329.0,829.0)
+:Sending Touch (ACTION_UP): 0:(335.98642,838.71906)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(108.0,1734.0)
+:Sending Touch (ACTION_MOVE): 0:(120.16898,1728.5304)
+:Sending Touch (ACTION_MOVE): 0:(128.37527,1722.0364)
+:Sending Touch (ACTION_MOVE): 0:(129.86456,1720.1034)
+:Sending Touch (ACTION_UP): 0:(131.52481,1711.456)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(614.0,1249.0)
+:Sending Touch (ACTION_UP): 0:(621.2656,1247.7264)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(374.0,474.0)
+:Sending Touch (ACTION_MOVE): 0:(375.32352,476.6973)
+:Sending Touch (ACTION_MOVE): 0:(383.81293,491.71432)
+:Sending Touch (ACTION_MOVE): 0:(386.7626,495.2781)
+:Sending Touch (ACTION_MOVE): 0:(386.9458,506.86194)
+:Sending Touch (ACTION_MOVE): 0:(392.34592,506.97714)
+:Sending Touch (ACTION_MOVE): 0:(401.4607,521.3956)
+:Sending Touch (ACTION_MOVE): 0:(403.816,541.6487)
+:Sending Touch (ACTION_UP): 0:(408.43115,558.9864)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(454.0,843.0)
+:Sending Touch (ACTION_MOVE): 0:(464.3092,837.6767)
+:Sending Touch (ACTION_MOVE): 0:(473.17215,822.8514)
+:Sending Touch (ACTION_MOVE): 0:(473.46707,820.57825)
+:Sending Touch (ACTION_MOVE): 0:(478.7136,812.33185)
+:Sending Touch (ACTION_MOVE): 0:(478.8483,810.6719)
+:Sending Touch (ACTION_MOVE): 0:(488.40668,804.4147)
+:Sending Touch (ACTION_MOVE): 0:(491.9757,795.69696)
+:Sending Touch (ACTION_MOVE): 0:(499.2624,782.83154)
+:Sending Touch (ACTION_MOVE): 0:(504.78107,777.5153)
+:Sending Touch (ACTION_UP): 0:(510.78275,770.2288)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 68    // KEYCODE_GRAVE
+    // Injection Failed
+:Sending Key (ACTION_UP): 68    // KEYCODE_GRAVE
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(778.0,3.0)
+:Sending Touch (ACTION_UP): 0:(779.5809,7.2443457)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(569.0,417.0)
+:Sending Touch (ACTION_UP): 0:(562.18964,419.0412)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(587.0,1049.0)
+:Sending Touch (ACTION_UP): 0:(585.9731,1041.412)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(992.0,200.0)
+:Sending Touch (ACTION_UP): 0:(1012.6607,214.5974)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(26.0,1512.0)
+:Sending Touch (ACTION_MOVE): 0:(30.014751,1509.4064)
+:Sending Touch (ACTION_MOVE): 0:(40.658348,1504.607)
+:Sending Touch (ACTION_MOVE): 0:(40.679455,1499.7769)
+:Sending Touch (ACTION_MOVE): 0:(55.2896,1496.6409)
+:Sending Touch (ACTION_MOVE): 0:(67.73567,1490.9414)
+:Sending Touch (ACTION_MOVE): 0:(77.53466,1487.593)
+:Sending Touch (ACTION_MOVE): 0:(79.15402,1484.2155)
+:Sending Touch (ACTION_MOVE): 0:(86.20762,1483.3723)
+    //[calendar_time:2020-04-21 08:05:39.145  system_uptime:4526988]
+    // Sending event #1600
+:Sending Touch (ACTION_UP): 0:(98.58878,1480.5217)
+Sleeping for 300 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(487.0,1066.0)
+:Sending Touch (ACTION_MOVE): 0:(482.592,1066.2483)
+:Sending Touch (ACTION_UP): 0:(481.22177,1066.2529)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(326.0,794.0)
+:Sending Touch (ACTION_MOVE): 0:(322.81458,791.7859)
+:Sending Touch (ACTION_UP): 0:(322.18716,785.4174)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(855.0,167.0)
+:Sending Touch (ACTION_UP): 0:(856.28143,168.85634)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=h.jpc.vhome/.chat.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=h.jpc.vhome/.chat.activity.WelcomeActivity } in package h.jpc.vhome
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(128.0,153.0)
+:Sending Touch (ACTION_UP): 0:(130.67068,153.95143)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://covid-19.juheapi.com/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(685.0,1680.0)
+:Sending Touch (ACTION_UP): 0:(669.1882,1675.0255)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(7.0,1417.0)
+:Sending Touch (ACTION_MOVE): 0:(10.365913,1413.0969)
+:Sending Touch (ACTION_MOVE): 0:(13.127896,1408.383)
+:Sending Touch (ACTION_MOVE): 0:(14.063434,1404.2793)
+:Sending Touch (ACTION_MOVE): 0:(15.761295,1390.4098)
+:Sending Touch (ACTION_MOVE): 0:(15.94665,1389.0795)
+:Sending Touch (ACTION_MOVE): 0:(17.733782,1388.6277)
+:Sending Touch (ACTION_MOVE): 0:(20.9036,1379.924)
+:Sending Touch (ACTION_UP): 0:(22.591879,1376.2872)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(909.0,802.0)
+:Sending Touch (ACTION_MOVE): 0:(896.4857,811.9133)
+:Sending Touch (ACTION_MOVE): 0:(893.41876,815.07007)
+:Sending Touch (ACTION_MOVE): 0:(885.4276,817.5893)
+:Sending Touch (ACTION_MOVE): 0:(880.6911,821.46924)
+:Sending Touch (ACTION_MOVE): 0:(860.5426,829.19104)
+:Sending Touch (ACTION_MOVE): 0:(856.7101,837.0093)
+:Sending Touch (ACTION_MOVE): 0:(841.168,837.9007)
+:Sending Touch (ACTION_MOVE): 0:(821.004,846.79156)
+:Sending Touch (ACTION_MOVE): 0:(802.63916,852.29456)
+:Sending Touch (ACTION_UP): 0:(793.2129,852.5053)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(767.0,57.0)
+:Sending Touch (ACTION_UP): 0:(755.094,61.322475)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(108.0,817.0)
+:Sending Touch (ACTION_MOVE): 0:(109.186,815.6304)
+:Sending Touch (ACTION_MOVE): 0:(110.336426,811.255)
+:Sending Touch (ACTION_MOVE): 0:(118.38598,806.00275)
+:Sending Touch (ACTION_UP): 0:(125.32542,803.33594)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(682.0,442.0)
+:Sending Touch (ACTION_UP): 0:(682.0182,444.54727)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(370.0,649.0)
+:Sending Touch (ACTION_UP): 0:(349.20578,647.03064)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(37.0,427.0)
+:Sending Touch (ACTION_MOVE): 0:(30.062977,428.13004)
+:Sending Touch (ACTION_MOVE): 0:(16.16234,430.8596)
+:Sending Touch (ACTION_MOVE): 0:(2.9967728,431.51752)
+:Sending Touch (ACTION_MOVE): 0:(0.0,433.56207)
+:Sending Touch (ACTION_MOVE): 0:(0.0,434.84433)
+:Sending Touch (ACTION_MOVE): 0:(0.0,435.49094)
+:Sending Touch (ACTION_MOVE): 0:(0.0,437.37094)
+:Sending Touch (ACTION_MOVE): 0:(0.0,438.72528)
+:Sending Touch (ACTION_UP): 0:(0.0,441.00336)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(433.0,1546.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(433.25952,1537.068) 1:(288.0,1166.0)
+:Sending Touch (ACTION_MOVE): 0:(437.1736,1531.5552) 1:(284.78186,1161.732)
+:Sending Touch (ACTION_MOVE): 0:(437.7986,1531.2852) 1:(283.0274,1144.7683)
+:Sending Touch (ACTION_MOVE): 0:(440.67938,1527.9138) 1:(283.02206,1132.904)
+:Sending Touch (ACTION_MOVE): 0:(444.6284,1526.1635) 1:(280.19022,1114.43)
+:Sending Touch (ACTION_MOVE): 0:(445.20987,1519.1498) 1:(275.67673,1101.4066)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(446.64575,1517.9744) 1:(272.44672,1095.7375)
+:Sending Touch (ACTION_UP): 0:(449.91833,1509.9441)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(997.0,1164.0)
+:Sending Touch (ACTION_MOVE): 0:(1009.4789,1167.9812)
+:Sending Touch (ACTION_MOVE): 0:(1016.98987,1168.4939)
+:Sending Touch (ACTION_MOVE): 0:(1016.998,1172.4254)
+:Sending Touch (ACTION_MOVE): 0:(1029.0328,1174.6289)
+:Sending Touch (ACTION_MOVE): 0:(1038.178,1179.3647)
+:Sending Touch (ACTION_UP): 0:(1047.1885,1183.1152)
+    //[calendar_time:2020-04-21 08:07:46.942  system_uptime:4654784]
+    // Sending event #1700
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+    //[calendar_time:2020-04-21 08:07:47.244  system_uptime:4655086]
+    // Sending event #1700
+:Sending Touch (ACTION_DOWN): 0:(509.0,123.0)
+:Sending Touch (ACTION_UP): 0:(523.87756,117.37689)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(923.0,1336.0)
+:Sending Touch (ACTION_UP): 0:(925.3746,1338.5851)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(492.0,269.0)
+:Sending Touch (ACTION_UP): 0:(488.47876,267.5836)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(449.0,899.0)
+:Sending Touch (ACTION_UP): 0:(451.6463,894.43506)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(94.0,384.0)
+:Sending Touch (ACTION_MOVE): 0:(94.75627,387.75592)
+:Sending Touch (ACTION_MOVE): 0:(99.48595,388.4165)
+:Sending Touch (ACTION_MOVE): 0:(101.832634,392.85068)
+:Sending Touch (ACTION_MOVE): 0:(108.36673,408.20358)
+:Sending Touch (ACTION_MOVE): 0:(114.09058,421.29956)
+:Sending Touch (ACTION_MOVE): 0:(129.0686,433.44516)
+:Sending Touch (ACTION_MOVE): 0:(146.68991,437.34302)
+:Sending Touch (ACTION_MOVE): 0:(158.41075,444.799)
+:Sending Touch (ACTION_MOVE): 0:(173.92519,457.68033)
+:Sending Touch (ACTION_UP): 0:(179.9083,469.13513)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(536.0,505.0)
+:Sending Touch (ACTION_UP): 0:(542.4457,514.7036)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(392.0,59.0)
+:Sending Touch (ACTION_UP): 0:(390.48654,58.913795)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(78.0,1165.0)
+:Sending Touch (ACTION_UP): 0:(61.017826,1157.4504)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1015.0,944.0)
+:Sending Touch (ACTION_UP): 0:(1000.6369,946.7068)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+    // Injection Failed
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(585.0,107.0)
+:Sending Touch (ACTION_UP): 0:(588.30237,111.270805)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(940.0,339.0)
+:Sending Touch (ACTION_UP): 0:(948.8732,339.22208)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(418.0,1355.0)
+:Sending Touch (ACTION_UP): 0:(416.601,1349.3828)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(73.0,1631.0)
+:Sending Touch (ACTION_UP): 0:(79.48497,1630.0958)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(586.0,966.0)
+:Sending Touch (ACTION_MOVE): 0:(584.0017,970.6151)
+:Sending Touch (ACTION_MOVE): 0:(578.0387,975.4514)
+:Sending Touch (ACTION_MOVE): 0:(569.49506,980.6726)
+:Sending Touch (ACTION_MOVE): 0:(564.373,985.05054)
+:Sending Touch (ACTION_MOVE): 0:(562.62476,986.9448)
+:Sending Touch (ACTION_MOVE): 0:(555.76624,992.7188)
+:Sending Touch (ACTION_MOVE): 0:(550.8777,997.1042)
+:Sending Touch (ACTION_MOVE): 0:(545.7212,999.3901)
+:Sending Touch (ACTION_UP): 0:(544.95447,1000.33795)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(508.0,193.0)
+:Sending Touch (ACTION_UP): 0:(509.136,202.1323)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(593.0,908.0)
+:Sending Touch (ACTION_UP): 0:(585.7751,907.5981)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://v.juhe.cn/... cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher } in package com.android.chrome
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
