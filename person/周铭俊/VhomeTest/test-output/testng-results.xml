@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31607" started-at="2020-05-08T08:19:58Z" finished-at="2020-05-08T08:20:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31607" started-at="2020-05-08T08:19:58Z" finished-at="2020-05-08T08:20:30Z">
+      <class name="com.edu.lijiaqi.RNS.SlideTest">
+        <test-method status="PASS" signature="Connet()[pri:0, instance:com.edu.lijiaqi.RNS.SlideTest@523884b2]" name="Connet" is-config="true" duration-ms="18750" started-at="2020-05-08T08:19:58Z" finished-at="2020-05-08T08:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Connet -->
+        <test-method status="PASS" signature="refreshTest()[pri:1, instance:com.edu.lijiaqi.RNS.SlideTest@523884b2]" name="refreshTest" duration-ms="6856" started-at="2020-05-08T08:20:17Z" description="下滑刷新" finished-at="2020-05-08T08:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshTest -->
+        <test-method status="PASS" signature="downTest()[pri:2, instance:com.edu.lijiaqi.RNS.SlideTest@523884b2]" name="downTest" duration-ms="5978" started-at="2020-05-08T08:20:24Z" description="上滑查看更多" finished-at="2020-05-08T08:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downTest -->
+      </class> <!-- com.edu.lijiaqi.RNS.SlideTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
