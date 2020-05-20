@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.edu.lijiaqi.RNS.SlideTest">
+      <class name="com.edu.lijiaqi.RNS.InitTest">
         <methods>
-          <include name="refreshTest"/>
+          <include name="HuaDongTest" invocation-numbers="0 1 2"/>
           <include name="Connet"/>
         </methods>
-      </class> <!-- com.edu.lijiaqi.RNS.SlideTest -->
+      </class> <!-- com.edu.lijiaqi.RNS.InitTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

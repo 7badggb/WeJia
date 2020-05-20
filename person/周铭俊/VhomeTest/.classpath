@@ -7,8 +7,9 @@
 	<classpathentry kind="lib" path="lib/guice-4.2.2.jar"/>
 	<classpathentry kind="lib" path="lib/java-client-7.3.0.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-server-standalone-3.141.59.jar"/>
-	<classpathentry kind="lib" path="/AutoWebTest/lib/poi-4.0.0.jar"/>
-	<classpathentry kind="lib" path="/AutoWebTest/lib/poi-ooxml-4.0.0.jar"/>
 	<classpathentry kind="src" path="/auto2019"/>
+	<classpathentry kind="lib" path="/apitest/libs/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/apitest/libs/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/apitest/libs/poi-ooxml-schemas-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
